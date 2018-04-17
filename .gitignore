@@ -41,6 +41,3 @@ UnityLockfile
 # Builds
 *.apk
 *.unitypackage
-GameClient/Temp/__Backupscenes/0.backup
-*.backup
-GameClient/Library/shadercompiler-UnityShaderCompiler.exe0.log
