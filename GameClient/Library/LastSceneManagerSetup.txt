@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Units/MovementTest/testcharactermovement.unity
+  isLoaded: 1
+  isActive: 1
