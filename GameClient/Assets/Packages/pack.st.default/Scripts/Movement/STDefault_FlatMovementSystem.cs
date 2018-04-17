@@ -237,7 +237,7 @@ namespace Stormium.Default.Movement
                 characterVelocities[i] = rigidbody.velocity;
             }
 
-            new JobSetPositionRB()
+            new JobSetPosition()
             {
                 DeltaTime             = deltaTime,
                 Details               = m_Group.Details,
