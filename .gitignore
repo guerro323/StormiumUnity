@@ -1,16 +1,12 @@
-GameClient/[Ll]ibrary/
-GameClient/[Tt]emp/
-GameClient/[Oo]bj/
+StormiumGameClient/[Ll]ibrary/
+StormiumGameClient/[Tt]emp/
+StormiumGameClient/[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 /ShootManiaStormMan
-GameClient/Library/
-GameClient/Temp/__Backupscenes
-
-
-# I can't add this in the repository.
-GameClient/Assets/KinematicSoup/
+StormiumGameClient/Library/
+StormiumGameClient/Temp/__Backupscenes
 
 # Visual Studio 2015 cache directory
 /.vs/
