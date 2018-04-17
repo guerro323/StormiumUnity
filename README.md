@@ -15,3 +15,5 @@ This game (also Patapon 4) use a package system, for a better code maintenance.
 -   [Core package](GameClient/Packages/pack.st.core)
 -   [Default package](GameClient/Packages/pack.st.default)
 -   [Shared package](GameClient/Packages/pack.guerro.shared)
+
+Version: 0
