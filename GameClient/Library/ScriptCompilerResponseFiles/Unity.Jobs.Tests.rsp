@@ -2,12 +2,12 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/Unity.Jobs.Tests.dll
+-out:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Temp/Unity.Jobs.Tests.dll
 -nostdlib
 -unsafe
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -300,4 +300,4 @@
 -d:UNITY_POST_PROCESSING_STACK_V2
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.jobs@0.0.6/Unity.Jobs.Tests/NativeListDeferredArrayTests.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.jobs@0.0.6/Unity.Jobs.Tests/ParallelFilterJobTests.cs
--v:1
+-v:0

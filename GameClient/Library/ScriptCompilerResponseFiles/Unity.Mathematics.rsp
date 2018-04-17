@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/Unity.Mathematics.dll
+-out:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Temp/Unity.Mathematics.dll
 -nostdlib
 -unsafe
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
@@ -325,4 +325,4 @@
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.mathematics@0.0.7/Unity.Mathematics/uint3.gen.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.mathematics@0.0.7/Unity.Mathematics/uint4.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.mathematics@0.0.7/Unity.Mathematics/uint4.gen.cs
--v:1
+-v:0

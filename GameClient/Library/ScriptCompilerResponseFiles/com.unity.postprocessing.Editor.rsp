@@ -2,10 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/com.unity.postprocessing.Editor.dll
+-out:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Temp/com.unity.postprocessing.Editor.dll
 -nostdlib
 -unsafe
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -328,4 +328,4 @@
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.postprocessing@2.0.3-preview/PostProcessing/Editor/Utils/PostProcessShaderIncludePath.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.postprocessing@2.0.3-preview/PostProcessing/Editor/Utils/SerializedParameterOverride.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.postprocessing@2.0.3-preview/PostProcessing/Editor/Utils/Styling.cs
--v:1
+-v:0

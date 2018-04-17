@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/Unity.Properties.dll
+-out:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Temp/Unity.Properties.dll
 -nostdlib
 -unsafe
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
@@ -313,4 +313,4 @@
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.1.8/Runtime/Serialization/Json/StringBuffer.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.1.8/Runtime/Serialization/PropertyContainerType.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.properties@0.1.8/Runtime/Serialization/PropertyTypeNode.cs
--v:1
+-v:0

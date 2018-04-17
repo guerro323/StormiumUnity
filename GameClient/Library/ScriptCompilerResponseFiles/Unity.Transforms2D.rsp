@@ -2,16 +2,16 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/Unity.Transforms2D.dll
+-out:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Temp/Unity.Transforms2D.dll
 -nostdlib
 -unsafe
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Transforms.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Burst.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Entities.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Transforms.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Burst.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/Users/cime6/Documents/GitHub/StormiumUnity/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -303,4 +303,4 @@
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.entities@0.0.11/Unity.Transforms2D/MoveForward2DSystem.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.entities@0.0.11/Unity.Transforms2D/Position2DComponent.cs
 -i:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.entities@0.0.11/Unity.Transforms2D/Transform2DSystem.cs
--v:1
+-v:0
