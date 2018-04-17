@@ -6,6 +6,8 @@
 /Assets/AssetStoreTools*
 /ShootManiaStormMan
 GameClient/Library/
+GameClient/Temp/
+
 
 # I can't add this in the repository.
 GameClient/Assets/KinematicSoup/
