@@ -1,12 +1,12 @@
-/[Ll]ibrary/
-/[Tt]emp/
+GameClient/[Ll]ibrary/
+GameClient/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 /ShootManiaStormMan
 GameClient/Library/
-GameClient/Temp/
+GameClient/Temp/__Backupscenes
 
 
 # I can't add this in the repository.
@@ -41,3 +41,6 @@ UnityLockfile
 # Builds
 *.apk
 *.unitypackage
+GameClient/Temp/__Backupscenes/0.backup
+*.backup
+GameClient/Library/shadercompiler-UnityShaderCompiler.exe0.log

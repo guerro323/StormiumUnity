@@ -50,7 +50,6 @@ namespace Stormium.Default.Movement
         protected override void OnUpdate()
         {
             var deltaTime = Time.deltaTime;
-            var jumpInput = Input.GetAxisRaw("Jump") > 0.9f;
 
             for (int i = 0; i != m_Group.Length; i++)
             {
@@ -59,6 +58,7 @@ namespace Stormium.Default.Movement
                 var transform         = new DWorldTransformData(m_Group.Positions[i].Value, m_Group.Rotations[i].Value);
                 var rigidbody         = m_Group.Rigidbodies[i];
                 var character         = m_Group.Characters[i];
+                var detail = m_Group.Details[i];
                 var characterCollider = m_Group.CharacterColliders[i];
                 var movementCollider  = characterCollider.MovementCollider;
 
@@ -69,7 +69,7 @@ namespace Stormium.Default.Movement
                 var isGrounded  = character.IsGrounded;
                 var wasJumping  = component.IsJumping;
 
-                component.WantToJump = jumpInput;
+                component.WantToJump = detail.WantToJump;
                 if (character.WasGrounded || character.IsGrounded)
                 {
                     component.IsJumping = false;

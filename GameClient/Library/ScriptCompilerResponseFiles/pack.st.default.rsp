@@ -5,14 +5,6 @@
 -out:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Temp/pack.st.default.dll
 -nostdlib
 -unsafe
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/pack.st.core.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/pack.guerro.shared.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Burst.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -73,6 +65,14 @@
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\Managed/Unity.Locator.dll"
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/pack.st.core.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/pack.guerro.shared.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Library/ScriptAssemblies/Unity.Burst.dll
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"

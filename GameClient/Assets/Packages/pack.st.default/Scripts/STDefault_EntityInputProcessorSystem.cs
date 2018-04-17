@@ -4,18 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Packet.Guerro.Shared.Network;
 using Unity.Entities;
 using UnityEngine;
 
 namespace Stormium.Default
 {
+    [AlwaysUpdateSystem]
     class STDefault_EntityInputProcessorSystem : ComponentSystem
     {
         ComponentGroup m_Group;
 
         protected override void OnCreateManager(int capacity)
         {
-            m_Group = GetComponentGroup(typeof(STDefault_EntityInput), typeof(STNetworkEntityProperty));
+            m_Group = GetComponentGroup(typeof(STDefault_EntityInput), typeof(NetworkEntity));
         }
 
         protected override void OnUpdate()
@@ -23,7 +25,7 @@ namespace Stormium.Default
             //TODO m_Group.SetFilter(new STNetworkEntityProperty() { IsControllable = true }); //< we only want to process controllable entities 
 
             var entityInputs = m_Group.GetComponentDataArray<STDefault_EntityInput>();
-            var networkProperties = m_Group.GetSharedComponentDataArray<STNetworkEntityProperty>();
+            var networkProperties = m_Group.GetSharedComponentDataArray<NetworkEntity>();
 
             for (int i = 0; i < entityInputs.Length; i++)
             {

@@ -209,7 +209,8 @@ namespace Stormium.Default.Movement
 
                     velocity.y = 0; // Set Y to 0 to normalize it 
                     //velocity = normalize(velocity) * targetSpeed; (WHY ARE WE DOING THAT? WE CAN DO A LERP)
-                    velocity = lerp(velocity, targetVelocity, DeltaTime * movementRef.WalkSpeedIncreasePerSecond);
+                    //velocity = lerp(velocity, targetVelocity, DeltaTime * movementRef.WalkSpeedIncreasePerSecond);
+                    velocity = targetVelocity;
                     //velocity = targetVelocity;
                     velocity.y = Velocities[index].y; // Set back Y
 
