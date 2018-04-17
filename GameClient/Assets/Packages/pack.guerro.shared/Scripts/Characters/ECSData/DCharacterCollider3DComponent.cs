@@ -61,7 +61,7 @@ namespace Packet.Guerro.Shared.Characters
                 return;
 
             float    currentHeight = 0f, varPanel;
-            Collider varCollider;
+            CapsuleCollider varCollider;
 
             var isGrounded = false;
             var goWrapper  = GetComponent<GameObjectEntity>();
@@ -72,7 +72,7 @@ namespace Packet.Guerro.Shared.Characters
             }
 
             // TODO
-            /*varCollider  = MovementCollider;
+            varCollider  = MovementCollider as CapsuleCollider;
             varPanel     = FootPanel;
             Gizmos.color = isGrounded ? new Color(0.05f, 0.8f, 0.04f, 0.75f) : new Color(0.05f, 0.09f, 0.8f, 0.75f);
             Gizmos.DrawCube(
@@ -87,7 +87,7 @@ namespace Packet.Guerro.Shared.Characters
             Gizmos.DrawCube(
                 transform.position + new Vector3(varCollider.center.x, (currentHeight + varPanel) * 0.5f,
                     varCollider.center.z),
-                new Vector3(varCollider.radius * 0.99f, varPanel - currentHeight, varCollider.radius * 0.99f));*/
+                new Vector3(varCollider.radius * 0.99f, varPanel - currentHeight, varCollider.radius * 0.99f));
         }
     }
 }

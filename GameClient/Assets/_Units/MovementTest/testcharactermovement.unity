@@ -195,13 +195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &9520986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,13 +206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &9520987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,8 +217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &9520988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,8 +228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &9520989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,13 +448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &14523811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,13 +459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &14523812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,8 +470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &14523813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,8 +481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &14523814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1182,13 +1146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &43241183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,13 +1157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &43241184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1218,8 +1168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &43241185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,8 +1179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &43241186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,13 +1459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &49562682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1531,13 +1470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &49562683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,8 +1481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &49562684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,8 +1492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &49562685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1740,13 +1668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &54314566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1758,13 +1679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &54314567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,8 +1690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &54314568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,8 +1701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &54314569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2207,13 +2117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &71633019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2225,13 +2128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &71633020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2243,8 +2139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &71633021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,8 +2150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &71633022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2369,13 +2261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &75776750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2387,13 +2272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &75776751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2405,8 +2283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &75776752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2418,8 +2294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &75776753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,13 +2429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &85786079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2573,13 +2440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &85786080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,8 +2451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &85786081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2604,8 +2462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &85786082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3119,13 +2975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &107084052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3137,13 +2986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &107084053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3155,8 +2997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &107084054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3168,8 +3008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &107084055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3407,13 +3245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &119358893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3425,13 +3256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &119358894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3443,8 +3267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &119358895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3456,8 +3278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &119358896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3649,13 +3469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &122598065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3667,13 +3480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &122598066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3685,8 +3491,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &122598067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3698,8 +3502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &122598068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3806,13 +3608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &123763026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3824,13 +3619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &123763027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3842,8 +3630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &123763028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3855,8 +3641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &123763029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4263,13 +4047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &144038879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4281,13 +4058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &144038880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4299,8 +4069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &144038881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4312,8 +4080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &144038882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4821,13 +4587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &178739082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4839,13 +4598,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &178739083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4857,8 +4609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &178739084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4870,8 +4620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &178739085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5265,13 +5013,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &185786325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5283,13 +5024,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &185786326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5301,8 +5035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &185786327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5314,8 +5046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &185786328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5422,13 +5152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &186112586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5440,13 +5163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &186112587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5458,8 +5174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &186112588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5471,8 +5185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &186112589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5649,13 +5361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &192785032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5667,13 +5372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &192785033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5685,8 +5383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &192785034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5698,8 +5394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &192785035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5976,13 +5670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &193490624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5994,13 +5681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &193490625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6012,8 +5692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &193490626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6025,8 +5703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &193490627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6133,13 +5809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &198250139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6151,13 +5820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &198250140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6169,8 +5831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &198250141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6182,8 +5842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &198250142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6629,13 +6287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &208090003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6647,13 +6298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &208090004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6665,8 +6309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &208090005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6678,8 +6320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &208090006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7253,13 +6893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &237605346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7271,13 +6904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &237605347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7289,8 +6915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &237605348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7302,8 +6926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &237605349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7871,13 +7493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &280462213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7889,13 +7504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &280462214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7907,8 +7515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &280462215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7920,8 +7526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &280462216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8028,13 +7632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &286220925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8046,13 +7643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &286220926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8064,8 +7654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &286220927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8077,8 +7665,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &286220928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8214,13 +7800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &296117308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8232,13 +7811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &296117309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8250,8 +7822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &296117310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8263,8 +7833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &296117311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9312,13 +8880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &336553287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9330,13 +8891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &336553288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9348,8 +8902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &336553289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9361,8 +8913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &336553290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10004,13 +9554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &361666815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10022,13 +9565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &361666816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10040,8 +9576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &361666817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10053,8 +9587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &361666818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10230,13 +9762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &362086672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10248,13 +9773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &362086673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10266,8 +9784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &362086674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10279,8 +9795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &362086675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10428,13 +9942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &364624915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10446,13 +9953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &364624916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10464,8 +9964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &364624917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10477,8 +9975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &364624918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11611,13 +11107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &422846238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11629,13 +11118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &422846239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11647,8 +11129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &422846240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11660,8 +11140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &422846241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11768,13 +11246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &425017824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11786,13 +11257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &425017825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11804,8 +11268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &425017826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11817,8 +11279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &425017827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11994,13 +11454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &429484406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12012,13 +11465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &429484407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12030,8 +11476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &429484408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12043,8 +11487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &429484409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12554,13 +11996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &471871967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12572,13 +12007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &471871968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12590,8 +12018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &471871969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12603,8 +12029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &471871970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13343,13 +12767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &502724619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13361,13 +12778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &502724620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13379,8 +12789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &502724621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13392,8 +12800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &502724622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13541,13 +12947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &503280912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13559,13 +12958,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &503280913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13577,8 +12969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &503280914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13590,8 +12980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &503280915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13727,13 +13115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &512636175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13745,13 +13126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &512636176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13763,8 +13137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &512636177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13776,8 +13148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &512636178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14010,13 +13380,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &515276642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14028,13 +13391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &515276643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14046,8 +13402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &515276644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14059,8 +13413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &515276645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14266,13 +13618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &530579199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14284,13 +13629,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &530579200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14302,8 +13640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &530579201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14315,8 +13651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &530579202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14521,13 +13855,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &537368393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14539,13 +13866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &537368394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14557,8 +13877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &537368395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14570,8 +13888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &537368396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14678,13 +13994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &542447091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14696,13 +14005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &542447092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14714,8 +14016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &542447093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14727,8 +14027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &542447094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15104,13 +14402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &558898498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15122,13 +14413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &558898499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15140,8 +14424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &558898500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15153,8 +14435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &558898501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15375,13 +14655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &574904394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15393,13 +14666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &574904395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15411,8 +14677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &574904396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15424,8 +14688,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &574904397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15561,13 +14823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &585703758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15579,13 +14834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &585703759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15597,8 +14845,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &585703760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15610,8 +14856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &585703761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15957,13 +15201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &593088207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15975,13 +15212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &593088208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15993,8 +15223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &593088209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16006,8 +15234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &593088210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16391,13 +15617,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &606258705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16409,13 +15628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &606258706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16427,8 +15639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &606258707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16440,8 +15650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &606258708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16548,13 +15756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &608900791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16566,13 +15767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &608900792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16584,8 +15778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &608900793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16597,8 +15789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &608900794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16981,13 +16171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &620721759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16999,13 +16182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &620721760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17017,8 +16193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &620721761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17030,8 +16204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &620721762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17196,13 +16368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &625546112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17214,13 +16379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &625546113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17232,8 +16390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &625546114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17245,8 +16401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &625546115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17864,13 +17018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &664504470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17882,13 +17029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &664504471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17900,8 +17040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &664504472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17913,8 +17051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &664504473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18062,13 +17198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &665261186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18080,13 +17209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &665261187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18098,8 +17220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &665261188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18111,8 +17231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &665261189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18358,13 +17476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &674070224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18376,13 +17487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &674070225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18394,8 +17498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &674070226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18407,8 +17509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &674070227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18802,13 +17902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &713402039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18820,13 +17913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &713402040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18838,8 +17924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &713402041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18851,8 +17935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &713402042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19212,13 +18294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &724075040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19230,13 +18305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &724075041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19248,8 +18316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &724075042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19261,8 +18327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &724075043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19693,13 +18757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &743435157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19711,13 +18768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &743435158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19729,8 +18779,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &743435159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19742,8 +18790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &743435160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20001,13 +19047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &752674572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20019,13 +19058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &752674573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20037,8 +19069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &752674574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20050,8 +19080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &752674575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20243,13 +19271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &753733210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20261,13 +19282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &753733211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20279,8 +19293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &753733212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20292,8 +19304,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &753733213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20400,13 +19410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &756447617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20418,13 +19421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &756447618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20436,8 +19432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &756447619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20449,8 +19443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &756447620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21720,13 +20712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &818425396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21738,13 +20723,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &818425397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21756,8 +20734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &818425398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21769,8 +20745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &818425399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22463,13 +21437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &877001792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22481,13 +21448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &877001793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22499,8 +21459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &877001794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22512,8 +21470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &877001795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23172,13 +22128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &901025192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23190,13 +22139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &901025193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23208,8 +22150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &901025194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23221,8 +22161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &901025195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23685,13 +22623,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &932469634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23703,13 +22634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &932469635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23721,8 +22645,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &932469636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23734,8 +22656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &932469637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23980,13 +22900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &936261003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23998,13 +22911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &936261004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24016,8 +22922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &936261005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24029,8 +22933,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &936261006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24137,13 +23039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &947802664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24155,13 +23050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &947802665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24173,8 +23061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &947802666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24186,8 +23072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &947802667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24363,13 +23247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &955730038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24381,13 +23258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &955730039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24399,8 +23269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &955730040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24412,8 +23280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &955730041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24520,13 +23386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &957052704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24538,13 +23397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &957052705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24556,8 +23408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &957052706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24569,8 +23419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &957052707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25000,13 +23848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &975984043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25018,13 +23859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &975984044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25036,8 +23870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &975984045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25049,8 +23881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &975984046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25313,13 +24143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &980541240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25331,13 +24154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &980541241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25349,8 +24165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &980541242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25362,8 +24176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &980541243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25722,13 +24534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &992595821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25740,13 +24545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &992595822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25758,8 +24556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &992595823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25771,8 +24567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &992595824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26224,13 +25018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1002898833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26242,13 +25029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1002898834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26260,8 +25040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1002898835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26273,8 +25051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1002898836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26664,13 +25440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1021093295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26682,13 +25451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1021093296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26700,8 +25462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1021093297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26713,8 +25473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1021093298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27004,13 +25762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1026961123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27022,13 +25773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1026961124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27040,8 +25784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1026961125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27053,8 +25795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1026961126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27261,6 +26001,7 @@ GameObject:
   - component: {fileID: 1031401084}
   - component: {fileID: 1031401089}
   - component: {fileID: 1031401088}
+  - component: {fileID: 1031401083}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -27268,6 +26009,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1031401083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031401082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0930b557e13644af8d07fd4b242cfd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    CameraId: 0
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    FieldOfView: 0
 --- !u!81 &1031401084
 AudioListener:
   m_ObjectHideFlags: 0
@@ -27339,7 +26096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1031401082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22b810557202ec642a509042b80d14ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1031401089
@@ -27823,13 +26580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1072950863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27841,13 +26591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1072950864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27859,8 +26602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1072950865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27872,8 +26613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1072950866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28207,13 +26946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1085374059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28225,13 +26957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1085374060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28243,8 +26968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1085374061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28256,8 +26979,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1085374062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28795,13 +27516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1096855924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28813,13 +27527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1096855925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28831,8 +27538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1096855926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28844,8 +27549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1096855927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29906,13 +28609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1135060701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29924,13 +28620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1135060702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29942,8 +28631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1135060703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29955,8 +28642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1135060704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30276,13 +28961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1138472178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30294,13 +28972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1138472179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30312,8 +28983,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1138472180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30325,8 +28994,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1138472181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30433,13 +29100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1141627332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30451,13 +29111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1141627333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30469,8 +29122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1141627334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30482,8 +29133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1141627335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30783,20 +29432,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1153584434}
   - component: {fileID: 1153584436}
-  - component: {fileID: 1153584440}
-  - component: {fileID: 1153584439}
-  - component: {fileID: 1153584447}
-  - component: {fileID: 1153584438}
-  - component: {fileID: 1153584443}
-  - component: {fileID: 1153584437}
-  - component: {fileID: 1153584446}
-  - component: {fileID: 1153584445}
   - component: {fileID: 1153584432}
   - component: {fileID: 1153584442}
   - component: {fileID: 1153584444}
   - component: {fileID: 1153584435}
-  - component: {fileID: 1153584441}
   - component: {fileID: 1153584433}
+  - component: {fileID: 1153584439}
+  - component: {fileID: 1153584438}
+  - component: {fileID: 1153584437}
   m_Layer: 9
   m_Name: GameObject
   m_TagString: Untagged
@@ -30885,16 +29528,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153584431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
+  m_Script: {fileID: 11500000, guid: 338eb11742f6435a8dae7309cdd8ec07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 1.65
-  HitCollider: {fileID: 1778167905}
-  MovementCollider: {fileID: 1153584435}
-  FootPanel: 0.225
-  BodyPanel: 1.65
-  RotateGameObject: {fileID: 722960131}
-  CanPushRigidbodies: 1
 --- !u!114 &1153584438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30903,7 +29539,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153584431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 57d433133cfc4b208b1451b6c671eb73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeadPosition: 1.725
+  FootPanel: 0.225
+  BodyPanel: 1.6
+  RotateGameObject: {fileID: 722960131}
+  CanPushRigidbodies: 1
+  HitCollider: {fileID: 1778167905}
+  MovementCollider: {fileID: 1153584435}
+--- !u!114 &1153584439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153584431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7691c6ea143b48429739467d84c82ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
@@ -30913,43 +29567,6 @@ MonoBehaviour:
     PreviousRunVelocity: {x: 0, y: 0, z: 0}
     RunVelocity: {x: 0, y: 0, z: 0}
     MaximumStepAngle: 45
---- !u!114 &1153584439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
---- !u!114 &1153584440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
---- !u!114 &1153584441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b88ead54618211449cb89bc99436812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1153584442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30965,21 +29582,6 @@ MonoBehaviour:
     JumpPower: 5
     AfterJumpPower: 3.25
     JumpTime: 0
---- !u!114 &1153584443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c87ca71aa7846de8be36238491622c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedData:
-    PreviousVelocity: {x: 0, y: 0, z: 0}
-    CurrentVelocity: {x: 0, y: 0, z: 0}
-    PreviousPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &1153584444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30993,44 +29595,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     WallJumpPower: 2
---- !u!114 &1153584445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40bae2cbf55e4d7da6b1555eb3411239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedData:
-    MovementDirection: {x: 0, y: 0, z: 0}
-    Velocity: {x: 0, y: 0, z: 0}
---- !u!114 &1153584446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c25dfb160afa64438c859276dde3e9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
---- !u!114 &1153584447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153584431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84e6c786c21b55e4ebca3d46a88c9644, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1154377792
 GameObject:
   m_ObjectHideFlags: 0
@@ -31414,13 +29978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1172211363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31432,13 +29989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1172211364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31450,8 +30000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1172211365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31463,8 +30011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1172211366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31943,13 +30489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1212735724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31961,13 +30500,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1212735725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31979,8 +30511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1212735726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31992,8 +30522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1212735727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32255,13 +30783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1226440493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32273,13 +30794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1226440494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32291,8 +30805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1226440495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32304,8 +30816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1226440496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32595,13 +31105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1237063128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32613,13 +31116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1237063129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32631,8 +31127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1237063130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32644,8 +31138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1237063131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32863,13 +31355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1257163585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32881,13 +31366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1257163586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32899,8 +31377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1257163587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32912,8 +31388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1257163588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33646,13 +32120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1296344816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33664,13 +32131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1296344817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33682,8 +32142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1296344818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33695,8 +32153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1296344819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34317,13 +32773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1327956417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34335,13 +32784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1327956418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34353,8 +32795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1327956419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34366,8 +32806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1327956420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34663,13 +33101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1345848739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34681,13 +33112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1345848740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34699,8 +33123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1345848741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34712,8 +33134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1345848742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34820,13 +33240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1346059930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34838,13 +33251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1346059931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34856,8 +33262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1346059932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34869,8 +33273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1346059933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35984,13 +34386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1413595922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36002,13 +34397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1413595923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36020,8 +34408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1413595924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36033,8 +34419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1413595925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36141,13 +34525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1417478506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36159,13 +34536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1417478507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36177,8 +34547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1417478508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36190,8 +34558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1417478509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36607,13 +34973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1442469580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36625,13 +34984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1442469581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36643,8 +34995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1442469582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36656,8 +35006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1442469583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37188,13 +35536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1464113783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37206,13 +35547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1464113784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37224,8 +35558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1464113785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37237,8 +35569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1464113786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37673,13 +36003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1506480397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37691,13 +36014,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1506480398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37709,8 +36025,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1506480399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37722,8 +36036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1506480400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38807,13 +37119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1593335613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38825,13 +37130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1593335614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38843,8 +37141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1593335615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38856,8 +37152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1593335616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38964,13 +37258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1596958774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38982,13 +37269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1596958775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39000,8 +37280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1596958776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39013,8 +37291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1596958777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40236,13 +38512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1653647351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40254,13 +38523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1653647352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40272,8 +38534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1653647353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40285,8 +38545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1653647354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40462,13 +38720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1659302042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40480,13 +38731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1659302043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40498,8 +38742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1659302044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40511,8 +38753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1659302045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40874,13 +39114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1672970837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40892,13 +39125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1672970838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40910,8 +39136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1672970839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40923,8 +39147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1672970840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41031,13 +39253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1673127102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41049,13 +39264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1673127103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41067,8 +39275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1673127104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41080,8 +39286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1673127105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41442,13 +39646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1688749629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41460,13 +39657,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1688749630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41478,8 +39668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1688749631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41491,8 +39679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1688749632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41599,13 +39785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1689844160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41617,13 +39796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1689844161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41635,8 +39807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1689844162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41648,8 +39818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1689844163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41923,13 +40091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1698805387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41941,13 +40102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1698805388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41959,8 +40113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1698805389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41972,8 +40124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1698805390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42349,13 +40499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1707222890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42367,13 +40510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1707222891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42385,8 +40521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1707222892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42398,8 +40532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1707222893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42576,13 +40708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1718871283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42594,13 +40719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1718871284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42612,8 +40730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1718871285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42625,8 +40741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1718871286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42733,13 +40847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1721307844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42751,13 +40858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1721307845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42769,8 +40869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1721307846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42782,8 +40880,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1721307847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42890,13 +40986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1722091116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42908,13 +40997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1722091117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42926,8 +41008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1722091118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42939,8 +41019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1722091119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43193,13 +41271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1740602664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43211,13 +41282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1740602665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43229,8 +41293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1740602666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43242,8 +41304,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1740602667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43379,13 +41439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1747798528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43397,13 +41450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1747798529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43415,8 +41461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1747798530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43428,8 +41472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1747798531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43577,13 +41619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1751789604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43595,13 +41630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1751789605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43613,8 +41641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1751789606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43626,8 +41652,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1751789607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43844,13 +41868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1764309021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43862,13 +41879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1764309022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43880,8 +41890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1764309023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43893,8 +41901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1764309024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44086,13 +42092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1765379850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44104,13 +42103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1765379851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44122,8 +42114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &1765379852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44135,8 +42125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1765379853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44413,13 +42401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1776626836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44431,13 +42412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1776626837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44449,8 +42423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1776626838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44462,8 +42434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1776626839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44738,13 +42708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1785566464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44756,13 +42719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1785566465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44774,8 +42730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1785566466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44787,8 +42741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1785566467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45097,13 +43049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1812510263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45115,13 +43060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1812510264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45133,8 +43071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1812510265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45146,8 +43082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1812510266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45295,13 +43229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1825790572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45313,13 +43240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1825790573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45331,8 +43251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1825790574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45344,8 +43262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1825790575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45452,13 +43368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1827157878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45470,13 +43379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1827157879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45488,8 +43390,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1827157880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45501,8 +43401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1827157881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46142,13 +44040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1855512069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46160,13 +44051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1855512070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46178,8 +44062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1855512071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46191,8 +44073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1855512072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46384,13 +44264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1861171009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46402,13 +44275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1861171010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46420,8 +44286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1861171011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46433,8 +44297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1861171012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46651,13 +44513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1875687544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46669,13 +44524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1875687545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46687,8 +44535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1875687546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46700,8 +44546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1875687547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46837,13 +44681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1881430980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46855,13 +44692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1881430981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46873,8 +44703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1881430982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46886,8 +44714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1881430983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48265,13 +46091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1977432717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48283,13 +46102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1977432718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48301,8 +46113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1977432719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48314,8 +46124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1977432720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48532,13 +46340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &1985499364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48550,13 +46351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &1985499365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48568,8 +46362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1985499366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48581,8 +46373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &1985499367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48872,13 +46662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2010962320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48890,13 +46673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2010962321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48908,8 +46684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2010962322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48921,8 +46695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2010962323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49111,13 +46883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2015771122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49129,13 +46894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2015771123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49147,8 +46905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &2015771124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49160,8 +46916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2015771125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49391,13 +47145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2025201180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49409,13 +47156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2025201181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49427,8 +47167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0.3826826, z: 0, w: 0.9238799}
 --- !u!114 &2025201182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49440,8 +47178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2025201183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49548,13 +47284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2033826261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49566,13 +47295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2033826262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49584,8 +47306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2033826263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49597,8 +47317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2033826264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49705,13 +47423,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2034392600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49723,13 +47434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2034392601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49741,8 +47445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2034392602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49754,8 +47456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2034392603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50173,13 +47873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2051997488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50191,13 +47884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2051997489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50209,8 +47895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2051997490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50222,8 +47906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2051997491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50388,13 +48070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2064755919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50406,13 +48081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2064755920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50424,8 +48092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2064755921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50437,8 +48103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2064755922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51033,13 +48697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30829228e32ce7e458c5eba745cc7e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeadPosition: 0
-  HitCollider: {fileID: 0}
-  MovementCollider: {fileID: 0}
-  FootPanel: 0
-  BodyPanel: 0
-  RotateGameObject: {fileID: 0}
-  CanPushRigidbodies: 0
 --- !u!114 &2086841618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51051,13 +48708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b040299c05ac4a459a741320f54b3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Direction: {x: 0, y: 0, z: 0}
-    HeadRotation: 0
-    FlyTime: 0
-    PreviousRunVelocity: {x: 0, y: 0, z: 0}
-    RunVelocity: {x: 0, y: 0, z: 0}
-    MaximumStepAngle: 0
 --- !u!114 &2086841619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51069,8 +48719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f52d8479b844e5826685a292cbe9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2086841620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51082,8 +48730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2a27ba9d8e43c6850b8ce186f7d25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedData:
-    Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2086841621
 MonoBehaviour:
   m_ObjectHideFlags: 0

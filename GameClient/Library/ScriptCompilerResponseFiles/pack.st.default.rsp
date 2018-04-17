@@ -92,10 +92,6 @@
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.collections@0.0.8/System.Runtime.CompilerServices.Unsafe.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2017_3.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2017_3.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/KSCommon.Unity2017_3.dll
--r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_3.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -306,14 +302,15 @@
 -d:UNITY_POST_PROCESSING_STACK_V2
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Cameras/STDefault_CameraHandlerTestComponent.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Cameras/STDefault_CameraSystem.cs
--i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_FlatMovementComponent.cs
+-i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/ECSData/STDefault_FlatMovementComponent.cs
+-i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/ECSData/STDefault_JumpComponent.cs
+-i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/ECSData/STDefault_WallJumpComponent.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_FlatMovementSystem.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_InitCoordinator.cs
--i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_JumpComponent.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_JumpSystem.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_MovementFixSystem.cs
--i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_WallJumpComponent.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/Movement/STDefault_WalljumpSystem.cs
+-i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/STDefault_CreateEntityForMovementBehaviour.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/STDefault_EntityInputComponent.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/STDefault_EntityInputProcessorSystem.cs
 -i:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/Packages/pack.st.default/Scripts/STDefault_MovementDetailComponent.cs
