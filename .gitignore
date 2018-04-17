@@ -5,6 +5,10 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 /ShootManiaStormMan
+GameClient/Library/
+
+# I can't add this in the repository.
+GameClient/Assets/KinematicSoup/
 
 # Visual Studio 2015 cache directory
 /.vs/

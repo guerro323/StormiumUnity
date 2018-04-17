@@ -88,6 +88,10 @@
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity 2018.1.0b12/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:C:/ProgramData/Unity/cache/packages/staging-packages.unity.com/com.unity.collections@0.0.8/System.Runtime.CompilerServices.Unsafe.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/Editor/KSCommon-Editor.Unity2017_3.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/SceneFusion/Editor/KSSceneFusion-Editor.Unity2017_3.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/KSCommon.Unity2017_3.dll
+-r:C:/Users/guerr/Documents/Projets/STORMIUM/StormiumUnityRepository/GameClient/Assets/KinematicSoup/SceneFusion/KSSceneFusion.Unity2017_3.dll
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity 2018.1.0b12\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
