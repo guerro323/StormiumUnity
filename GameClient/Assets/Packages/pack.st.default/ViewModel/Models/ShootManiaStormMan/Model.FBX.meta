@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 438fc192dc8c72d41ab6dd5cd5acae37
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: '#WeaponMuzzle'
+    100002: Dummy_Root
+    100004: Head
+    100006: Head_End
+    100008: Hips
+    100010: Jaw
+    100012: LeftArm
+    100014: LeftFoot
+    100016: LeftForeArm
+    100018: LeftHand
+    100020: LeftHandIndex1
+    100022: LeftHandIndex2
+    100024: LeftHandIndex_End
+    100026: LeftHandMiddle1
+    100028: LeftHandMiddle2
+    100030: LeftHandMiddle_End
+    100032: LeftHandPinky1
+    100034: LeftHandPinky2
+    100036: LeftHandPinky_End
+    100038: LeftHandRing1
+    100040: LeftHandRing2
+    100042: LeftHandRing_End
+    100044: LeftHandThumb1
+    100046: LeftHandThumb2
+    100048: LeftHandThumb_End
+    100050: LeftLeg
+    100052: LeftShoulder
+    100054: LeftToe_End
+    100056: LeftToeBase
+    100058: LeftUpLeg
+    100060: //RootNode
+    100062: Neck
+    100064: RightArm
+    100066: RightFoot
+    100068: RightForeArm
+    100070: RightHand
+    100072: RightHandIndex1
+    100074: RightHandIndex2
+    100076: RightHandIndex_End
+    100078: RightHandMiddle1
+    100080: RightHandMiddle2
+    100082: RightHandMiddle_End
+    100084: RightHandPinky1
+    100086: RightHandPinky2
+    100088: RightHandPinky_End
+    100090: RightHandRing1
+    100092: RightHandRing2
+    100094: RightHandRing_End
+    100096: RightHandThumb1
+    100098: RightHandThumb2
+    100100: RightHandThumb_End
+    100102: RightLeg
+    100104: RightShoulder
+    100106: RightToe_End
+    100108: RightToeBase
+    100110: RightUpLeg
+    100112: Spine
+    100114: Spine1
+    100116: StormMan_Lod0
+    100118: StormMan_Lod1
+    100120: StormMan_Lod2
+    400000: '#WeaponMuzzle'
+    400002: Dummy_Root
+    400004: Head
+    400006: Head_End
+    400008: Hips
+    400010: Jaw
+    400012: LeftArm
+    400014: LeftFoot
+    400016: LeftForeArm
+    400018: LeftHand
+    400020: LeftHandIndex1
+    400022: LeftHandIndex2
+    400024: LeftHandIndex_End
+    400026: LeftHandMiddle1
+    400028: LeftHandMiddle2
+    400030: LeftHandMiddle_End
+    400032: LeftHandPinky1
+    400034: LeftHandPinky2
+    400036: LeftHandPinky_End
+    400038: LeftHandRing1
+    400040: LeftHandRing2
+    400042: LeftHandRing_End
+    400044: LeftHandThumb1
+    400046: LeftHandThumb2
+    400048: LeftHandThumb_End
+    400050: LeftLeg
+    400052: LeftShoulder
+    400054: LeftToe_End
+    400056: LeftToeBase
+    400058: LeftUpLeg
+    400060: //RootNode
+    400062: Neck
+    400064: RightArm
+    400066: RightFoot
+    400068: RightForeArm
+    400070: RightHand
+    400072: RightHandIndex1
+    400074: RightHandIndex2
+    400076: RightHandIndex_End
+    400078: RightHandMiddle1
+    400080: RightHandMiddle2
+    400082: RightHandMiddle_End
+    400084: RightHandPinky1
+    400086: RightHandPinky2
+    400088: RightHandPinky_End
+    400090: RightHandRing1
+    400092: RightHandRing2
+    400094: RightHandRing_End
+    400096: RightHandThumb1
+    400098: RightHandThumb2
+    400100: RightHandThumb_End
+    400102: RightLeg
+    400104: RightShoulder
+    400106: RightToe_End
+    400108: RightToeBase
+    400110: RightUpLeg
+    400112: Spine
+    400114: Spine1
+    400116: StormMan_Lod0
+    400118: StormMan_Lod1
+    400120: StormMan_Lod2
+    2100000: Body
+    4300000: StormMan_Lod1
+    4300002: StormMan_Lod2
+    4300004: StormMan_Lod0
+    9500000: //RootNode
+    13700000: StormMan_Lod0
+    13700002: StormMan_Lod1
+    13700004: StormMan_Lod2
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

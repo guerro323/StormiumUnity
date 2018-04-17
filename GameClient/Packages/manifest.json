@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "com.unity.package-manager-ui": "1.8.2",
+    "com.unity.entities": "0.0.11",
+    "com.unity.incrementalcompiler": "0.0.33",
+    "com.unity.postprocessing": "2.0.3-preview",
+    "com.unity.standardevents": "exclude",
+    "com.unity.analytics": "exclude",
+    "com.unity.ads": "exclude",
+    "com.unity.purchasing": "exclude"
+  },
+  "testables": [
+    "com.unity.collections",
+    "com.unity.entities",
+    "com.unity.jobs"
+  ],
+  "registry": "https://staging-packages.unity.com"
+}
