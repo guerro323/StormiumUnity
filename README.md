@@ -1,7 +1,7 @@
 
 <html>
     <p align="center">
-    <img src="https://orig00.deviantart.net/0b8f/f/2018/107/0/d/logostormiumlongsmall_by_guerro323-dc92v5s.png" alt="Super Logo!" width="195" height="64" />
+    <img src="https://orig00.deviantart.net/1a22/f/2018/108/2/3/logostormiumlongsmall_by_guerro323-dc9722b.png" alt="Super Logo!" width="195" height="64" />
     </p>
     <h2 align="center">
     Stormium
