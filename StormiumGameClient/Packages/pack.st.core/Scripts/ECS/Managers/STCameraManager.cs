@@ -1,4 +1,5 @@
 ﻿using Guerro.Utilities;
+using Stormium.Internal.PlayerLoop;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
@@ -9,7 +10,7 @@ using UnityEngine.Experimental.PlayerLoop;
 
 namespace Stormium.Internal.ECS
 {
-    [UpdateInGroup(typeof(PostLateUpdate))]
+    [UpdateAfter(typeof(STUpdateOrder.UORigidbodyUpdateAfter))]
     public class STCameraManager : ComponentSystem
     {
         public struct Group
@@ -79,6 +80,19 @@ namespace Stormium.Internal.ECS
             //GameLogs.LogEntityComponentUpdate(entity: entity, component: information);
 
             return true;
+        }
+
+        public void DirectSetCamera(Entity entity, STCamera information)
+        {
+            EntityManager.SetComponentData(entity, information);
+
+            var uCamera = EntityManager.GetComponentObject<Camera>(entity);
+            
+            information.FieldOfView = math.clamp(information.FieldOfView, 0, 360);
+
+            uCamera.transform.position = information.Position;
+            uCamera.transform.rotation = information.Rotation;
+            uCamera.fieldOfView        = information.FieldOfView;
         }
 
         /// <summary>

@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace Stormium.Default.Movement
 {
-    [UpdateInGroup(typeof(STUpdateOrder.UOMovementUpdateAfter.Loop))]
+    [UpdateAfter(typeof(STUpdateOrder.UORigidbodyUpdateAfter))]
     public class STDefault_CameraSystem : ComponentSystem
     {
         struct CharacterGroup
@@ -50,7 +50,7 @@ namespace Stormium.Default.Movement
                 var characterPosition            = VecBox(m_CharacterGroup.Positions[0].Value);
                 var characterVelocityNoMagnitude = m_CharacterGroup.CharacterInformations[0].PreviousVelocity;
                 characterVelocityNoMagnitude.y = 0f;
-                var characterVelocity = math.clamp(characterVelocityNoMagnitude.magnitude * 1.05f, 8, 40) - 8f;
+                var characterVelocity = math.clamp(characterVelocityNoMagnitude.magnitude * 1.05f, 9, 40) - 9f;
                 
                 characterPosition.y += m_CharacterGroup.CharacterColliders[0].HeadPosition;
 
@@ -69,10 +69,10 @@ namespace Stormium.Default.Movement
                     characterPosition.z));
                 dataCamera.Rotation = m_CharacterGroup.Rotations[0].Value * headRotation;
                 dataCamera.FieldOfView = math.clamp(math.lerp(dataCamera.FieldOfView,
-                    70 + characterVelocity,
-                    Time.deltaTime * 8), 70, 120);
+                    70 + (characterVelocity * 0.5f),
+                    Time.deltaTime * 0.25f), 70, 120);
 
-                m_CameraManager.SetCamera(entity, dataCamera);
+                m_CameraManager.DirectSetCamera(entity, dataCamera);
             }
 
             /*for (int i = 0; i != m_Group.Length; ++i)

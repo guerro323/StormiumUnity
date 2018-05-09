@@ -49,24 +49,24 @@ namespace Stormium.Default.Movement
         [Inject] STCharacterManager      m_CharacterManager;
         [Inject] STWorldTransformManager m_TransformManager;
 
-        public static bool USE_EXPERIMENTAL_RIGIDBODY = false;
+        public static bool USE_EXPERIMENTAL_RIGIDBODY = true;
 
         [ComputeJobOptimization]
         [STDefault_InitCoordinator.RequireMinimal]
         struct JobSetPosition : IJobProcessComponentData<DCharacterData, STDefault_FlatMovement, DWorldPositionData>
         {
-            [ReadOnly]                  public float                                        DeltaTime;
-            [ReadOnly]                  public ComponentDataArray<STDefault_MovementDetail> Details;
-            [ReadOnly]                  public ComponentDataArray<DWorldRotationData>          Rotations;
-            [ReadOnly]                  public ComponentDataArray<DCharacterInformationData>   CharacterInformations;
-            [DeallocateOnJobCompletion] public NativeArray<int>                             Counter;
+            [ReadOnly]                  public float                                         DeltaTime;
+            [ReadOnly]                  public ComponentDataArray<STDefault_MovementDetail>  Details;
+            [ReadOnly]                  public ComponentDataArray<DWorldRotationData>        Rotations;
+            [ReadOnly]                  public ComponentDataArray<DCharacterInformationData> CharacterInformations;
+            [DeallocateOnJobCompletion] public NativeArray<int>                              Counter;
 
             // Read and write
             public NativeArray<Vector3> Velocities;
 
-            public void Execute(ref DCharacterData character,
+            public void Execute(ref            DCharacterData         character,
                                 [ReadOnly] ref STDefault_FlatMovement movementRef,
-                                ref DWorldPositionData position)
+                                ref            DWorldPositionData     position)
             {
                 var refIndex             = Counter[0];
                 var rotation             = Rotations[refIndex];
@@ -75,6 +75,7 @@ namespace Stormium.Default.Movement
                 var maxWkSpeed           = movementRef.MaxWalkSpeed;
                 var maxWkSpeedInAir      = movementRef.MaxWalkAirSpeed;
                 var WkSpeedIps           = movementRef.WalkSpeedIncreasePerSecond;
+                var MovSpeedIps          = movementRef.SpeedDirectionIncreasePerSecond;
 
                 var   moveDir      = character.Direction = rotation.Value * Details[refIndex].MovementDirection;
                 var   flatVelocity = (Vector2) ((float3) characterInformation.PreviousVelocity).xz;
@@ -86,14 +87,21 @@ namespace Stormium.Default.Movement
 
                 if (character.IsGrounded)
                 {
-                    speedLerp = math.lerp(minSpeed, maxWkSpeed, DeltaTime * WkSpeedIps * speed);
-                    speedLerp = math.clamp(speedLerp, minWkSpeed, 100);
+                    speedLerp = lerp(minSpeed, maxWkSpeed, DeltaTime * WkSpeedIps * speed);
+                    speedLerp = clamp(speedLerp, minWkSpeed, 100);
                 }
                 else
                 {
-                    minSpeed = math.clamp(speed, 0.5f, speed);
+                    minSpeed  = clamp(speed, 0.5f, speed);
                     speedLerp = maxWkSpeedInAir;
-                    
+
+                    //speedLerp = lerp(speed, 100, DeltaTime * WkSpeedIps * speed);
+
+                    if (speed < maxSpeedInAir)
+                        speedLerp = clamp(speed + 5 * DeltaTime, 0.1f, 100);
+                    else
+                        speedLerp = clamp(speed, 0.1f, 100);
+
                     var mv          = moveDir * maxWkSpeedInAir;
                     var addToSpeed  = (moveDir.magnitude * 4f * DeltaTime);
                     var speedWithMv = minSpeed + addToSpeed;
@@ -101,10 +109,10 @@ namespace Stormium.Default.Movement
                         minSpeed = speedWithMv;
                     else
                     {
-                        minSpeed = speedWithMv - math.distance(speedWithMv, maxWkSpeedInAir);
+                        minSpeed = speedWithMv - distance(speedWithMv, maxWkSpeedInAir);
                     }
 
-                    var minmaxSpeed = math.clamp(speed, minSpeed, maxSpeedInAir);
+                    var minmaxSpeed = clamp(speed, minSpeed, maxSpeedInAir);
 
                     if (USE_EXPERIMENTAL_RIGIDBODY)
                     {
@@ -112,14 +120,23 @@ namespace Stormium.Default.Movement
                         /*if (mv.magnitude <= 0.5f)
                             rv = math.lerp(rv, Vector3.zero, DeltaTime);*/
 
-                        rv += mv * 4.5f * DeltaTime;
+                        //rv += mv * 4.5f * DeltaTime;
 
                         /*var flatVector = new Vector2(minmaxSpeed, minmaxSpeed).normalized * minmaxSpeed;
                         var normalizedLimit = new float3(flatVector.x + 2.05f, 0, flatVector.y + 2.05f);*/
 
-                        rv.y = 0;
+                        /*rv.y = 0;
                         rv   = rv.normalized * minmaxSpeed;
                         rv.y = Velocities[refIndex].y;
+
+                        Velocities[refIndex] = rv;*/
+
+                        var oldHeight = rv.y;
+
+                        rv += moveDir * (MovSpeedIps * 3.6f) * DeltaTime;
+                        //rv.y = 0;
+                        //rv = normalize(rv) * (speed + length(moveDir) * 10 * DeltaTime);
+                        //rv.y = oldHeight;
 
                         Velocities[refIndex] = rv;
                     }
@@ -137,7 +154,7 @@ namespace Stormium.Default.Movement
                 }
 
                 var result = moveDir * speedLerp * 1f;
-  
+
                 if (character.IsGrounded)
                 {
                     if (USE_EXPERIMENTAL_RIGIDBODY)
@@ -150,11 +167,11 @@ namespace Stormium.Default.Movement
 
                         Velocities[refIndex] = velocityVec;
                     }
-                    Velocities[refIndex] = Vector3.zero;
-                    
-                    position.Value += result * DeltaTime;
+                    //Velocities[refIndex] = Vector3.zero;
+
+                    //position.Value += result * DeltaTime;
                 }
-                
+
                 character.RunVelocity += result * DeltaTime;
 
                 Counter[0] = refIndex + 1;
@@ -165,11 +182,11 @@ namespace Stormium.Default.Movement
         [STDefault_InitCoordinator.RequireMinimal]
         struct JobSetPositionRB : IJobProcessComponentData<DCharacterData, STDefault_FlatMovement, DWorldPositionData>
         {
-            [ReadOnly]                  public float                                        DeltaTime;
-            [ReadOnly]                  public ComponentDataArray<STDefault_MovementDetail> Details;
-            [ReadOnly]                  public ComponentDataArray<DWorldRotationData>          Rotations;
-            [ReadOnly]                  public ComponentDataArray<DCharacterInformationData>   CharacterInformations;
-            [DeallocateOnJobCompletion] public NativeArray<int>                             Counter;
+            [ReadOnly]                  public float                                         DeltaTime;
+            [ReadOnly]                  public ComponentDataArray<STDefault_MovementDetail>  Details;
+            [ReadOnly]                  public ComponentDataArray<DWorldRotationData>        Rotations;
+            [ReadOnly]                  public ComponentDataArray<DCharacterInformationData> CharacterInformations;
+            [DeallocateOnJobCompletion] public NativeArray<int>                              Counter;
 
             // Read and write
             public NativeArray<Vector3> Velocities;
@@ -180,22 +197,32 @@ namespace Stormium.Default.Movement
                 Velocities[index] = flatVector;
             }
 
-            public unsafe void Execute(ref DCharacterData character,
+            private void SetVelFromFlat(int index, float2 flatVector)
+            {
+                var vector = new float3(flatVector.x, flatVector.y, 0);
+                
+                vector.y      = Velocities[index].y;
+                Velocities[index] = vector;
+            }
+
+            public unsafe void Execute(ref            DCharacterData         character,
                                        [ReadOnly] ref STDefault_FlatMovement movementRef,
-                                       ref DWorldPositionData position)
-            {                
+                                       ref            DWorldPositionData     position)
+            {
                 ref var index    = ref UnsafeUtilityEx.ArrayElementAsRef<int>(Counter.GetUnsafePtr(), 0);
                 var     detail   = Details[index];
                 var     rotation = Rotations[index];
                 var     charInfo = CharacterInformations[index];
 
-                var   flatVelocity = ((float3) charInfo.PreviousVelocity).xz;
-                float speed        = length(charInfo.PreviousVelocity), flatSpeed = length(flatVelocity);
+                var   flatCharVelocity = ((float3) charInfo.PreviousVelocity).xz;
+                var   flatVelocity     = ((float3) Velocities[index]).xz;
+                float speed            = length(charInfo.PreviousVelocity), flatSpeed = length(flatCharVelocity);
 
-                var movementDirection = rotation.Value * detail.MovementDirection;
+                var movementDirection  = rotation.Value * detail.MovementDirection;
+                var flatMvDir          = ((float3) movementDirection).xz;
                 var directionSensivity = length(movementDirection);
 
-                if (character.IsGrounded) ;
+                /*if (character.IsGrounded) ;
                 {
                     var targetSpeed = clamp(speed + DeltaTime, movementRef.MinWalkSpeed * directionSensivity, movementRef.MaxWalkSpeed);
                     float3 targetVelocity = movementDirection * targetSpeed;
@@ -215,7 +242,48 @@ namespace Stormium.Default.Movement
                     velocity.y = Velocities[index].y; // Set back Y
 
                     Velocities[index] = velocity;
+                }*/
+
+               // SetVelFromFlat(index, (flatMvDir * DeltaTime));
+
+                /*var targetSpeed = 1f;
+                if (character.IsGrounded)
+                    targetSpeed = movementRef.WalkSpeedIncreasePerSecond *;*/
+                
+                float targetSpeed = length(Velocities[index]),
+                      initSpeed   = length(Velocities[index]);
+                float speedFactor = 1f, maximumSpeed = initSpeed; // Default Air factor
+                if (character.IsGrounded)
+                {
+                    speed = 10f;
+                    maximumSpeed = movementRef.MaxWalkSpeed;
                 }
+                else
+                {
+                    if (initSpeed <= movementRef.MaxWalkAirSpeed)
+                        maximumSpeed = movementRef.MaxWalkAirSpeed;
+                }
+             
+                targetSpeed = lerp(targetSpeed, maximumSpeed, speedFactor * 3.6f * DeltaTime);
+
+
+                var targetVelocity = Velocities[index];
+                targetVelocity.y = 0f;
+
+                if (directionSensivity > 0f)
+                {
+                    targetVelocity = targetVelocity + (movementDirection * 25 * DeltaTime);
+                    targetVelocity = normalize(targetVelocity) * targetSpeed;
+                }
+                else
+                {
+                    targetVelocity = lerp(targetVelocity, Vector3.zero, 25 * DeltaTime);
+                }
+
+                targetVelocity.y = Velocities[index].y;
+
+
+                Velocities[index] = targetVelocity;
 
                 index++;
             }
@@ -271,6 +339,7 @@ namespace Stormium.Default.Movement
                 
                 // Do we like... care about velocities?
                 //newPosition += rbVelocity * deltaTime;
+                rigidbody.velocity = characterVelocities[i];
 
                 #endregion
 
@@ -287,8 +356,15 @@ namespace Stormium.Default.Movement
                 Profiler.BeginSample("Make some raycasts");
                 var groundHit = m_CharacterManager.UpdateGroundRay(entity.Index, movementCollider as CapsuleCollider, transform.Position,
                     transform.Rotation);
-                var isGrounded = character.IsGrounded = groundHit.normal != Vector3.zero
-                                                        && groundHit.distance <= 0.045f;
+                /*var isGrounded = character.IsGrounded = groundHit.normal != Vector3.zero
+                                                        && groundHit.distance <= 0.045f;*/
+                var isGrounded = character.IsGrounded =
+                    m_CharacterManager.CheckGround(entity.Index,
+                        movementCollider as CapsuleCollider,
+                        transform.Position,
+                        transform.Rotation,
+                        characterCollider.FootPanel,
+                        out var stickDistance);
                 Profiler.EndSample();
 
                 #endregion
@@ -405,6 +481,9 @@ namespace Stormium.Default.Movement
                 if (isGrounded)
                     velY = 0;
                 rbVelocity.y = velY;
+
+                /*if (stickDistance != -1f)
+                newPosition.y -= stickDistance;*/
 
                 rigidbody.velocity                          = rbVelocity;
                 character.IsGrounded                        = isGrounded;

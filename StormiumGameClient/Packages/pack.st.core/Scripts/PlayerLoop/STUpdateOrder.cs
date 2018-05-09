@@ -5,9 +5,15 @@ namespace Stormium.Internal.PlayerLoop
 {
     public static class STUpdateOrder
     {
+        [UpdateAfter(typeof(Update))]
+        public class UOEntry
+        {
+            
+        }
+        
         public static class UOMovementUpdate
         {            
-            [UpdateAfter(typeof(Update))]
+            [UpdateAfter(typeof(UORigidbodyUpdateBefore))]
             public sealed class PreInit : BarrierSystem
             {
 
@@ -53,7 +59,23 @@ namespace Stormium.Internal.PlayerLoop
             }
         }
 
-        public static class UOMovementUpdateAfter
+        [UpdateAfter(typeof(UOEntry))]
+        public class UORigidbodyUpdateBefore
+        {
+            [UpdateAfter(typeof(UORigidbodyUpdateAfter))]
+            public class End
+            {
+                
+            }
+        }
+
+        [UpdateAfter(typeof(UORigidbodyUpdateBefore.End))]
+        public class UORigidbodyUpdateAfter
+        {
+            
+        }
+
+        public static class UOUpdateAllRenderers
         {
             [UpdateAfter(typeof(UnityEngine.Experimental.PlayerLoop.PostLateUpdate.UpdateAllRenderers))]
             public sealed class Loop : BarrierSystem

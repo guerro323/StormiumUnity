@@ -176,5 +176,41 @@ namespace _ST._Scripts.Internal.ECS.Character
             // If we did a direct return, it will give a small impact to the performance, because we writing to the array, then reading it back.
             return ray;
         }
+
+        public bool1 CheckGround(int id, CapsuleCollider collider, Vector3 position, Quaternion rotation, float footSize, out float stickDistance)
+        {
+            var overlaps = UpdateOverlapsColliders(id, collider, position, rotation, out var length, 0);
+            
+            var footPos = position;
+            footPos.y += footSize;
+            
+            for (int i = 0; i != length; i++)
+            {
+                var overlap = overlaps[i];
+                if (overlap.gameObject.layer == MovementLayer)
+                    continue;
+                var closestPoint = overlap.ClosestPoint(footPos);
+
+                if (closestPoint.y <= footSize)
+                {
+                    var posRay = closestPoint;
+                    posRay.y += footSize;
+
+                    if (Physics.Raycast(posRay, Vector3.down, out var hitInfo, 1, LayerMask))
+                    {
+                        //Debug.Log(hitInfo.collider + ", " + hitInfo.normal);
+                        if (hitInfo.collider == overlap
+                            && hitInfo.distance < 0.1f)
+                        {
+                            stickDistance = closestPoint.y - position.y;
+                            return true;
+                        }
+                    }
+                }
+            }
+
+            stickDistance = -1f;
+            return false;
+        }
     }
 }

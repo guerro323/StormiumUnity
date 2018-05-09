@@ -18,6 +18,9 @@ namespace Stormium.Default.Movement
 
         [Header("Air Speed Properties")]
         public float MaxWalkAirSpeed;
+
+        [Header("Commun")]
+        public float SpeedDirectionIncreasePerSecond;
     }
 
     public class STDefault_FlatMovementComponent : ComponentDataWrapper<STDefault_FlatMovement>

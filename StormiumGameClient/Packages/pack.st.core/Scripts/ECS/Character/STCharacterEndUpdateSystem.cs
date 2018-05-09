@@ -111,6 +111,11 @@ namespace Stormium.Internal.ECS
         protected override void OnCreateManager(int capacity)
         {
             m_JobUpdatePositionsFieldInputs = new NativeArray<float3>(m_Group.Length, Allocator.Persistent);
+
+            UpdateRigidbodySystem.OnBeforeSimulateItem += PhysicsOnBeforeSimulateItem;
+            UpdateRigidbodySystem.OnAfterSimulateItem += PhysicsOnAfterSimulateItem;
+            UpdateRigidbodySystem.OnBeforeSimulate += PhysicsOnBeforeSimulate;
+            UpdateRigidbodySystem.OnAfterSimulate += PhysicsOnAfterSimulate;
         }
 
         private void UpdateUnityTransforms()
@@ -124,9 +129,31 @@ namespace Stormium.Internal.ECS
             /*for (int index = 0; index != m_Group.Length; ++index)
                 m_Group.Rigidbodies[index].MovePosition(m_Group.Positions[index].Value);*/
         }
-        
-        protected override void OnUpdate()
+
+        private void PhysicsOnBeforeSimulateItem()
         {
+            if (m_Group.Length == 0) return;
+            
+            var needToUpdate = false;
+            OnBeforePhysicUpdate?.Invoke(ref needToUpdate);
+            if (needToUpdate) UpdateUnityTransforms();
+        }
+
+        private void PhysicsOnAfterSimulateItem()
+        {
+            if (m_Group.Length == 0) return;
+            
+            var needToUpdate = false;
+            OnAfterPhysicUpdate?.Invoke(ref needToUpdate);
+            if (needToUpdate) UpdateUnityTransforms();
+        }
+        
+        private void PhysicsOnBeforeSimulate()
+        {
+            if (m_Group.Length == 0) return;
+            
+            var deltaTime = Time.deltaTime;
+            
             //< -------- -------- -------- -------- -------- -------- -------- ------- //
             // Resize the array length if the group is bigger or smaller
             //> -------- -------- -------- -------- -------- -------- -------- ------- //
@@ -138,7 +165,6 @@ namespace Stormium.Internal.ECS
 
             UpdateUnityTransforms();
 
-            var deltaTime = Time.deltaTime;
             for (int index = 0; index != m_Group.Length; ++index)
             {
                 var entity    = m_Group.Entities[index];
@@ -162,22 +188,16 @@ namespace Stormium.Internal.ECS
 
                 rigidbody.velocity = velocity;
 
-                //m_RigidbodiesManager.UpdateRigidbody(entity, rigidbody);
                 EntityManager.SetComponentData(entity, character);
-
-                //rigidbody.MovePosition(position.Value);
             }
+        }
 
-            var needToUpdate = false;
-            OnBeforePhysicUpdate?.Invoke(ref needToUpdate);
-            if (needToUpdate) UpdateUnityTransforms();
+        private void PhysicsOnAfterSimulate()
+        {
+            if (m_Group.Length == 0) return;
             
-            Physics.Simulate(deltaTime);
-
-            needToUpdate = false;
-            OnAfterPhysicUpdate?.Invoke(ref needToUpdate);
-            if (needToUpdate) UpdateUnityTransforms();
-
+            var deltaTime = Time.deltaTime;
+            
             // And we redo the same job (because we updated the physics)
             var inputDeps = new JobUpdateComponentTransforms()
             {
@@ -201,6 +221,10 @@ namespace Stormium.Internal.ECS
 
                 m_TransformManager.UpdatePosition(entity, position);
             }
+        }
+        
+        protected override void OnUpdate()
+        {
         }
     }
 }
