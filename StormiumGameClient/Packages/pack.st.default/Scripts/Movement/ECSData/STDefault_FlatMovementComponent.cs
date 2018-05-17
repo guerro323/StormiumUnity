@@ -11,10 +11,10 @@ namespace Stormium.Default.Movement
         [Header("Read-only")]
         public MoveInput MoveInput;
 
-        [Header("Ground Speed Properties")]
-        public float MinWalkSpeed;
-        public float MaxWalkSpeed;
-        public float WalkSpeedIncreasePerSecond;
+        [Header("Default Ground Speed Properties")]
+        public float DefaultMinWalkSpeed;
+        public float DefaultMaxWalkSpeed;
+        public float DefaultWalkSpeedIncreasePerSecond;
 
         [Header("Air Speed Properties")]
         public float MaxWalkAirSpeed;
@@ -29,9 +29,9 @@ namespace Stormium.Default.Movement
         {
             Value = new STDefault_FlatMovement()
             {
-                MinWalkSpeed = 4.75f,
-                MaxWalkSpeed = 8.5f,
-                WalkSpeedIncreasePerSecond = 1.5f,
+                DefaultMinWalkSpeed = 6.5f,
+                DefaultMaxWalkSpeed = 9.6f,
+                DefaultWalkSpeedIncreasePerSecond = 1.25f,
             };
         }
     }

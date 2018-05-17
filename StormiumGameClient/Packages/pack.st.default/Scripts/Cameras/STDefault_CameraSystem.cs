@@ -70,7 +70,7 @@ namespace Stormium.Default.Movement
                 dataCamera.Rotation = m_CharacterGroup.Rotations[0].Value * headRotation;
                 dataCamera.FieldOfView = math.clamp(math.lerp(dataCamera.FieldOfView,
                     70 + (characterVelocity * 0.5f),
-                    Time.deltaTime * 0.25f), 70, 120);
+                    Time.deltaTime * 30f), 70, 120);
 
                 m_CameraManager.DirectSetCamera(entity, dataCamera);
             }

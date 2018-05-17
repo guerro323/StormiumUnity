@@ -1,13 +1,29 @@
 {
   "dependencies": {
-    "com.unity.package-manager-ui": "1.9.8",
+    "com.unity.package-manager-ui": "1.10.0-preview.1",
     "com.unity.entities": "0.0.11",
     "com.unity.incrementalcompiler": "0.0.40",
     "com.unity.postprocessing": "2.0.3-preview",
     "com.unity.standardevents": "exclude",
     "com.unity.analytics": "exclude",
     "com.unity.ads": "exclude",
-    "com.unity.purchasing": "exclude"
+    "com.unity.purchasing": "exclude",
+    "com.unity.modules.vehicles": "exclude",
+    "com.unity.modules.clusterrenderer": "exclude",
+    "com.unity.modules.clusterinput": "exclude",
+    "com.unity.modules.facebook": "exclude",
+    "com.unity.modules.gamecenter": "exclude",
+    "com.unity.modules.substance": "exclude",
+    "com.unity.modules.spatialtracking": "exclude",
+    "com.unity.modules.unet": "exclude",
+    "com.unity.modules.unityanalytics": "exclude",
+    "com.unity.modules.ai": "exclude",
+    "com.unity.modules.particleslegacy": "exclude",
+    "com.unity.modules.tilemap": "exclude",
+    "com.unity.modules.unityconnect": "exclude",
+    "com.unity.modules.ar": "exclude",
+    "com.unity.modules.cloudwebservices": "exclude",
+    "com.unity.modules.umbra": "exclude"
   },
   "testables": [
     "com.unity.collections",

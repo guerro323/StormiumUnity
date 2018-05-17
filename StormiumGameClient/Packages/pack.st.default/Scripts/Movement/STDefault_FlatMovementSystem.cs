@@ -71,10 +71,10 @@ namespace Stormium.Default.Movement
                 var refIndex             = Counter[0];
                 var rotation             = Rotations[refIndex];
                 var characterInformation = CharacterInformations[refIndex];
-                var minWkSpeed           = movementRef.MinWalkSpeed;
-                var maxWkSpeed           = movementRef.MaxWalkSpeed;
+                var minWkSpeed           = movementRef.DefaultMinWalkSpeed;
+                var maxWkSpeed           = movementRef.DefaultMaxWalkSpeed;
                 var maxWkSpeedInAir      = movementRef.MaxWalkAirSpeed;
-                var WkSpeedIps           = movementRef.WalkSpeedIncreasePerSecond;
+                var WkSpeedIps           = movementRef.DefaultWalkSpeedIncreasePerSecond;
                 var MovSpeedIps          = movementRef.SpeedDirectionIncreasePerSecond;
 
                 var   moveDir      = character.Direction = rotation.Value * Details[refIndex].MovementDirection;
@@ -256,7 +256,7 @@ namespace Stormium.Default.Movement
                 if (character.IsGrounded)
                 {
                     speed = 10f;
-                    maximumSpeed = movementRef.MaxWalkSpeed;
+                    maximumSpeed = movementRef.DefaultMaxWalkSpeed;
                 }
                 else
                 {
@@ -305,7 +305,7 @@ namespace Stormium.Default.Movement
                 characterVelocities[i] = rigidbody.velocity;
             }
 
-            new JobSetPosition()
+            new JobSetPositionRB()
             {
                 DeltaTime             = deltaTime,
                 Details               = m_Group.Details,

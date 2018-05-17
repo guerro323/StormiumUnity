@@ -134,18 +134,18 @@ namespace Stormium.Internal.ECS
         {
             if (m_Group.Length == 0) return;
             
-            var needToUpdate = false;
+            /*var needToUpdate = false;
             OnBeforePhysicUpdate?.Invoke(ref needToUpdate);
-            if (needToUpdate) UpdateUnityTransforms();
+            if (needToUpdate) UpdateUnityTransforms();*/
         }
 
         private void PhysicsOnAfterSimulateItem()
         {
             if (m_Group.Length == 0) return;
             
-            var needToUpdate = false;
+            /*var needToUpdate = false;
             OnAfterPhysicUpdate?.Invoke(ref needToUpdate);
-            if (needToUpdate) UpdateUnityTransforms();
+            if (needToUpdate) UpdateUnityTransforms();*/
         }
         
         private void PhysicsOnBeforeSimulate()
@@ -190,6 +190,10 @@ namespace Stormium.Internal.ECS
 
                 EntityManager.SetComponentData(entity, character);
             }
+            
+            var needToUpdate = false;
+            OnBeforePhysicUpdate?.Invoke(ref needToUpdate);
+            if (needToUpdate) UpdateUnityTransforms();
         }
 
         private void PhysicsOnAfterSimulate()
@@ -210,6 +214,10 @@ namespace Stormium.Internal.ECS
                 Counter   = new NativeArray<int>(1, Allocator.TempJob)
             }.Schedule(this, 64, inputDeps);
             inputDeps.Complete();
+            
+            var needToUpdate = false;
+            OnAfterPhysicUpdate?.Invoke(ref needToUpdate);
+            if (needToUpdate) UpdateUnityTransforms();
 
             for (int index = 0; index != m_Group.Length; ++index)
             {
