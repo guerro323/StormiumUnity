@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Guerro.Utilities;
 using Packet.Guerro.Shared.Characters;
+using Packet.Guerro.Shared.Physic;
 using Stormium.Internal;
 using Stormium.Internal.ECS;
 using Unity.Entities;
@@ -45,7 +46,7 @@ namespace _ST._Scripts.Internal.ECS.Character
             return OverlapsColliders[id] = (colliders = new Collider[10]);
         }
 
-        // TODO: Make this as an extension to Bounds
+        /*// TODO: Make this as an extension to Bounds
         public Vector3 GetCenter(CapsuleCollider collider, Vector3 position)
         {
             var center = collider.center;
@@ -101,7 +102,7 @@ namespace _ST._Scripts.Internal.ECS.Character
                 (position.y + center.y) + height * 0.5f,
                 position.z + center.x
             );
-        }
+        }*/
 
         public Collider[] UpdateOverlapsColliders(int        id, CapsuleCollider collider, Vector3 position,
                                                   Quaternion rotation, out int length,
@@ -110,8 +111,8 @@ namespace _ST._Scripts.Internal.ECS.Character
             var overlapsColliders = GetOverlapsColliders(id);
             Array.Clear(overlapsColliders, 0, overlapsColliders.Length);
 
-            var minCenter = GetMinCenter(collider, position, rotation);
-            var maxCenter = GetMaxCenter(collider, position, rotation);
+            var minCenter = collider.GetWorldBottom(position, rotation);
+            var maxCenter = collider.GetWorldTop(position, rotation);
 
             length = Physics.OverlapCapsuleNonAlloc(minCenter,
                 maxCenter, collider.radius, overlapsColliders, LayerMask);
@@ -122,8 +123,8 @@ namespace _ST._Scripts.Internal.ECS.Character
                                        Quaternion      rotation = default)
         {
             RaycastHit downRayHit = default;
-            var        minPos     = GetMinCenter(collider, position, rotation);
-            var        maxPos     = GetMaxCenter(collider, position, rotation);
+            var        minPos     = collider.GetWorldBottom(position, rotation);
+            var        maxPos     = collider.GetWorldTop(position, rotation);
             //minPos.y += collider.radius;
             //maxPos.y -= collider.radius;
 

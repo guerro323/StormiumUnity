@@ -91,7 +91,7 @@ namespace Stormium.Default.Movement
                     if (!isPenetrating)
                         continue;
 
-                    FixOverlap(ref direction, ref distance, character.IsGrounded, otherCollider, ref position,
+                    FixOverlap(ref direction, ref distance, character.EditableCurrent.IsGrounded, otherCollider, ref position,
                         rigidbody, characterCollider, character);
                 }
 

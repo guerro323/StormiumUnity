@@ -46,7 +46,7 @@ namespace Stormium.Default.Movement
                 var entity      = m_CameraGroup.Entities[i];
 
                 var headRotation =
-                    Quaternion.Euler(m_CharacterGroup.Characters[0].HeadRotation, 0f, 0f);
+                    Quaternion.Euler(m_CharacterGroup.Characters[0].EditableCurrent.HeadRotation, 0f, 0f);
                 var characterPosition            = VecBox(m_CharacterGroup.Positions[0].Value);
                 var characterVelocityNoMagnitude = m_CharacterGroup.CharacterInformations[0].PreviousVelocity;
                 characterVelocityNoMagnitude.y = 0f;

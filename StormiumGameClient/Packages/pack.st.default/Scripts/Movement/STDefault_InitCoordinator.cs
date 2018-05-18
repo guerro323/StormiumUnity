@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Packet.Guerro.Shared.Characters;
 using Packet.Guerro.Shared.Transforms;
 using Stormium.Internal;
@@ -21,6 +22,12 @@ namespace Stormium.Default.Movement
             public RequireMinimalAttribute()
             {
                 this.TagComponents = STDefault_InitCoordinator.RequireMinimal;
+            }
+
+            public RequireMinimalAttribute(params Type[] plus)
+            {
+                this.TagComponents = Enumerable.Concat(STDefault_InitCoordinator.RequireMinimal, plus)
+                    .ToArray();
             }
         }
 
@@ -86,11 +93,11 @@ namespace Stormium.Default.Movement
                 var charInfo    = m_Group.CharacterInformations[index];
 
                 details.MovementDirection = entityInput.Direction;
-                details.WantToJump = character.IsGrounded
+                details.WantToJump = character.StartOfFrame.IsGrounded
                                      && entityInput.SpaceKey.IsDown;
                 details.WantToWalljump = !details.WantToJump
                                          && entityInput.SpaceKey.IsDown;
-
+                
                 charInfo.PreviousVelocity = VecBox(charInfo.PreviousVelocity, 25);
                 charInfo.CurrentVelocity  = VecBox(charInfo.CurrentVelocity, 25);
 

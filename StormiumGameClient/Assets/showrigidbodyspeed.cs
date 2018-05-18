@@ -104,9 +104,9 @@ public class showrigidbodyspeed : MonoBehaviour
         var character = GetComponent<GameObjectEntity>().Entity.GetComponentData<DCharacterData>();
         
         GUI.color = Color.black;
-        GUI.Label(new Rect(10.5f, 32.5f, 200, 25), $"Vel2: {character.RunVelocity.ToString("F2")}");
+        GUI.Label(new Rect(10.5f, 32.5f, 200, 25), $"Vel2: {character.EditableCurrent.AddedVelocity.ToString("F2")}");
         GUI.color = Color.white;
-        GUI.Label(new Rect(10, 32, 200, 25), $"Vel2: {character.RunVelocity.ToString("F2")}");
+        GUI.Label(new Rect(10, 32, 200, 25), $"Vel2: {character.EditableCurrent.AddedVelocity.ToString("F2")}");
         
         var fps = m_Fps.Max();
         

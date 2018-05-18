@@ -135,22 +135,27 @@ namespace Stormium.Internal.ECS
                         transform.Position,
                         transform.Rotation, out var _);
 
-                character.PreviousRunVelocity = character.RunVelocity;
-                character.RunVelocity         = Vector3.zero;
+                
+                var characterEarlyFrame = new DCharacterData.FrameInformation();
+                characterEarlyFrame.AddedVelocity         = character.PreviousFrame.AddedVelocity;
                 // Set IsGrounded and WasGrounded at same time
-                character.WasGrounded
-                    = character.IsGrounded
-                        = groundRay.normal != Vector3.zero
+                characterEarlyFrame.IsGrounded = groundRay.normal != Vector3.zero
                           && groundRay.distance <= character.MaximumStepAngle * 0.001f;
                 // For now, we do the headrotation here, it's pretty much ugly and not ECS like :(
-                character.HeadRotation -= Input.GetAxisRaw("Mouse Y") * 0.9f; // TODO: Move it to a controller class
-                character.HeadRotation =  math.clamp(character.HeadRotation, -90, 90);
+                characterEarlyFrame.HeadRotation -= Input.GetAxisRaw("Mouse Y") * 0.9f; // TODO: Move it to a controller class
+                characterEarlyFrame.HeadRotation =  math.clamp(characterEarlyFrame.HeadRotation, -90, 90);
 
-                if (character.WasGrounded)
+                if (character.PreviousFrame.IsGrounded)
                 {
                     rigidbody.velocity = new Vector3(rigidbody.velocity.x, 0, rigidbody.velocity.z);
-                    character.FlyTime = 0;
+                    characterEarlyFrame.FlyTime = 0;
+                    characterEarlyFrame.AddedVelocity = Vector3.zero;
                 }
+
+                // should this be set in STCharacterEndUpdateSystem instead?
+                character.PreviousFrame = character.EditableCurrent;
+                character.StartOfFrame = characterEarlyFrame;
+                character.EditableCurrent = characterEarlyFrame;
 
                 m_CharacterManager.UpdateCharacter(entity, character);
                 m_CharacterManager.GroundRaycast[entity.Index] = groundRay;

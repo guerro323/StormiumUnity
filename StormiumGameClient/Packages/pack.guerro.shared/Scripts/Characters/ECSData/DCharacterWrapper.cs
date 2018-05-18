@@ -9,7 +9,7 @@ namespace Packet.Guerro.Shared.Characters
     public struct DCharacterData : IComponentData
     {
         [Serializable]
-        public struct DCharacterDataFrameInformation
+        public struct FrameInformation
         {
             /// <summary>
             /// Direction of the character.
@@ -37,14 +37,27 @@ namespace Packet.Guerro.Shared.Characters
             /// </summary>
             public float FlyTime;
 
-            public Vector3 Velocity;
-
-            [Header("Properties")]
-            public float MaximumStepAngle;
+            /// <summary>
+            /// The added velocity to the character
+            /// </summary>
+            public Vector3 AddedVelocity;
         }
 
-        public DCharacterDataFrameInformation PreviousFrame;
-        public DCharacterDataFrameInformation CurrentFrame;
+        /// <summary>
+        /// Informations from previous frame
+        /// </summary>
+        public FrameInformation PreviousFrame;
+        /// <summary>
+        /// Information from the start of the frame
+        /// </summary>
+        public FrameInformation StartOfFrame;
+        /// <summary>
+        /// Current and editable information
+        /// </summary>
+        public FrameInformation EditableCurrent;
+        
+        [Header("Properties")]
+        public float MaximumStepAngle;
     }
 
     [AddComponentMenu("Moddable/Characters/Character")]

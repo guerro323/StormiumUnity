@@ -173,13 +173,15 @@ namespace Stormium.Internal.ECS
                 var rigidbody = m_Group.Rigidbodies[index];
 
                 var velocity = rigidbody.velocity;
-
-                if (!character.IsGrounded)
+                var characterFrame = character.EditableCurrent;
+                
+                if (!characterFrame.IsGrounded)
                 {
-                    character.FlyTime += deltaTime;
+                    characterFrame.FlyTime += deltaTime;
 
-                    if (character.RunVelocity.y <= 0.1f)
-                        velocity.y += Physics.gravity.y * deltaTime;
+                    characterFrame.AddedVelocity += Physics.gravity * deltaTime;
+                    /*if (characterFrame.Velocity.y <= 0.1f) ?
+                        velocity.y += Physics.gravity.y * deltaTime;*/
                 }
                 else
                 {

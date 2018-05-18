@@ -30,12 +30,12 @@ namespace Stormium.Default.Movement
 
             public ComponentDataArray<STDefault_EntityInput>    EntityInputs;
             public ComponentDataArray<STDefault_MovementDetail> Details;
-            public ComponentDataArray<DWorldPositionData>          Positions;
-            public ComponentDataArray<DWorldRotationData>          Rotations;
+            public ComponentDataArray<DWorldPositionData>       Positions;
+            public ComponentDataArray<DWorldRotationData>       Rotations;
             public ComponentArray<Rigidbody>                    Rigidbodies;
-            public ComponentDataArray<DCharacterData>              Characters;
+            public ComponentDataArray<DCharacterData>           Characters;
 
-            [ReadOnly] public ComponentDataArray<DCharacterInformationData>    CharacterInformations;
+            [ReadOnly] public ComponentDataArray<DCharacterInformationData> CharacterInformations;
             [ReadOnly] public ComponentArray<DCharacterCollider3DComponent> CharacterColliders;
 
             #endregion
@@ -58,28 +58,28 @@ namespace Stormium.Default.Movement
                 var transform         = new DWorldTransformData(m_Group.Positions[i].Value, m_Group.Rotations[i].Value);
                 var rigidbody         = m_Group.Rigidbodies[i];
                 var character         = m_Group.Characters[i];
-                var detail = m_Group.Details[i];
+                var detail            = m_Group.Details[i];
                 var characterCollider = m_Group.CharacterColliders[i];
                 var movementCollider  = characterCollider.MovementCollider;
 
-                var runVelocity = character.RunVelocity;
-                var rbVelocity  = rigidbody.velocity;
-                var newPosition = transform.Position;
-                var newRotation = transform.Rotation;
-                var isGrounded  = character.IsGrounded;
-                var wasJumping  = component.IsJumping;
+                var addedVelocity = character.EditableCurrent.AddedVelocity;
+                var rbVelocity    = rigidbody.velocity;
+                var newPosition   = transform.Position;
+                var newRotation   = transform.Rotation;
+                var isGrounded    = character.EditableCurrent.IsGrounded;
+                var wasJumping    = component.IsJumping;
 
                 component.WantToJump = detail.WantToJump;
-                if (character.WasGrounded || character.IsGrounded)
+                if (component.WantToJump)
                 {
                     component.IsJumping = false;
-                    if (component.WantToJump && !wasJumping)
+                    if (!wasJumping)
                     {
                         isGrounded = false;
 
                         //</ IncreaseJump()
-                        runVelocity.y += component.JumpPower;
-                        rbVelocity.y  =  component.JumpPower;
+                        addedVelocity.y += component.JumpPower;
+                        rbVelocity.y    =  component.JumpPower;
                         //>/
 
                         component.IsJumping        = true;
@@ -104,13 +104,13 @@ namespace Stormium.Default.Movement
                     component.JumpTime         = 0f;
                     component.HasDoneExtraJump = false;
                 }
-                
+
                 // Do we like... care about velocities?
                 //newPosition += rbVelocity * deltaTime;
 
                 rigidbody.velocity                          = rbVelocity;
-                character.IsGrounded                        = isGrounded;
-                character.RunVelocity                       = runVelocity;
+                character.EditableCurrent.IsGrounded        = isGrounded;
+                character.EditableCurrent.AddedVelocity     = addedVelocity;
                 transform.Position                          = newPosition;
                 transform.Rotation                          = newRotation;
                 characterCollider.RotateGameObject.rotation = newRotation;

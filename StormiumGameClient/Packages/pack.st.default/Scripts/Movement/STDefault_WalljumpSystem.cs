@@ -5,6 +5,7 @@ using Unity.Collections;
 using System.Collections.Generic;
 using Guerro.Utilities;
 using Packet.Guerro.Shared.Characters;
+using Packet.Guerro.Shared.Physic;
 using Packet.Guerro.Shared.Transforms;
 using Unity.Jobs;
 using Unity.Mathematics;
@@ -80,16 +81,18 @@ namespace Stormium.Default.Movement
                 var characterCollider    = m_Group.CharacterColliders[i];
                 var movementCollider     = characterCollider.MovementCollider;
 
-                var runVelocity = character.RunVelocity;
+                var charFrameInfo = character.EditableCurrent;
+                
+                var runVelocity = charFrameInfo.AddedVelocity;
                 var rbVelocity  = rigidbody.velocity;
                 var newPosition = transform.Position;
                 var newRotation = transform.Rotation;
 
                 var scaledVector = new Vector3
                 (
-                    character.Direction.x,
-                    character.Direction.y,
-                    character.Direction.z
+                    charFrameInfo.Direction.x,
+                    charFrameInfo.Direction.y,
+                    charFrameInfo.Direction.z
                 );
                 var n = transform.Rotation * Vector3.forward;
                 /*scaledVector.x = ClampAbs(scaledVector.x, n.x);
@@ -101,13 +104,13 @@ namespace Stormium.Default.Movement
                 scaledVector.y = 0;
                 //scaledVector = characterInformation.CurrentVelocity;
 
-                var ray = new Ray(m_CharacterManager.GetCenter(movementCollider as CapsuleCollider, transform.Position),
+                var ray = new Ray(movementCollider.GetWorldCenter(transform.Position, transform.Rotation),
                     scaledVector);
                 Debug.DrawRay(ray.origin, ray.direction, Color.blue, 0.25f);
                 
                 
                 
-                if (detail.WantToWalljump && !character.IsGrounded)
+                if (detail.WantToWalljump && !charFrameInfo.IsGrounded)
                 {
                     if (Physics.Raycast(ray, out var hitInfo, 1.5f))
                     {
@@ -131,15 +134,17 @@ namespace Stormium.Default.Movement
                         runVelocity += (result);
                         rbVelocity  += (result);
 
-                        character.Direction = result.normalized;
+                        charFrameInfo.Direction = result.normalized;
                         //>/
                     }
                 }
 
                 rigidbody.velocity                          = rbVelocity;
-                character.RunVelocity                       = runVelocity;
+                charFrameInfo.AddedVelocity = runVelocity;
                 transform.Position                          = newPosition;
                 transform.Rotation                          = newRotation;
+
+                character.EditableCurrent = charFrameInfo;
                 characterCollider.RotateGameObject.rotation = newRotation;
 
                 entity.SetComponentData(component);

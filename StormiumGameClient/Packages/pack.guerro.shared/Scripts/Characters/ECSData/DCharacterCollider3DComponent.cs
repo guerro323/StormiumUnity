@@ -68,7 +68,7 @@ namespace Packet.Guerro.Shared.Characters
             if (goWrapper.EntityManager.HasComponent<DCharacterData>(goWrapper.Entity))
             {
                 var character = goWrapper.EntityManager.GetComponentData<DCharacterData>(goWrapper.Entity);
-                isGrounded = character.IsGrounded;
+                isGrounded = character.EditableCurrent.IsGrounded;
             }
 
             // TODO

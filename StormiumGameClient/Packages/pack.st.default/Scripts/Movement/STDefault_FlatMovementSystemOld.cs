@@ -1,3 +1,4 @@
+#if USING_OLD_FLATMOVEMENT
 using System;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
@@ -200,8 +201,8 @@ namespace Stormium.Default.Movement
             private void SetVelFromFlat(int index, float2 flatVector)
             {
                 var vector = new float3(flatVector.x, flatVector.y, 0);
-                
-                vector.y      = Velocities[index].y;
+
+                vector.y          = Velocities[index].y;
                 Velocities[index] = vector;
             }
 
@@ -209,10 +210,11 @@ namespace Stormium.Default.Movement
                                        [ReadOnly] ref STDefault_FlatMovement movementRef,
                                        ref            DWorldPositionData     position)
             {
-                ref var index    = ref UnsafeUtilityEx.ArrayElementAsRef<int>(Counter.GetUnsafePtr(), 0);
-                var     detail   = Details[index];
-                var     rotation = Rotations[index];
-                var     charInfo = CharacterInformations[index];
+                ref var index     = ref UnsafeUtilityEx.ArrayElementAsRef<int>(Counter.GetUnsafePtr(), 0);
+                var     detail    = Details[index];
+                var     rotation  = Rotations[index];
+                var     charInfo  = CharacterInformations[index];
+                var     charFrame = character.EditableCurrent;
 
                 var   flatCharVelocity = ((float3) charInfo.PreviousVelocity).xz;
                 var   flatVelocity     = ((float3) Velocities[index]).xz;
@@ -244,18 +246,18 @@ namespace Stormium.Default.Movement
                     Velocities[index] = velocity;
                 }*/
 
-               // SetVelFromFlat(index, (flatMvDir * DeltaTime));
+                // SetVelFromFlat(index, (flatMvDir * DeltaTime));
 
                 /*var targetSpeed = 1f;
                 if (character.IsGrounded)
                     targetSpeed = movementRef.WalkSpeedIncreasePerSecond *;*/
-                
+
                 float targetSpeed = length(Velocities[index]),
                       initSpeed   = length(Velocities[index]);
                 float speedFactor = 1f, maximumSpeed = initSpeed; // Default Air factor
-                if (character.IsGrounded)
+                if (charFrame.IsGrounded)
                 {
-                    speed = 10f;
+                    speed        = 10f;
                     maximumSpeed = movementRef.DefaultMaxWalkSpeed;
                 }
                 else
@@ -263,7 +265,7 @@ namespace Stormium.Default.Movement
                     if (initSpeed <= movementRef.MaxWalkAirSpeed)
                         maximumSpeed = movementRef.MaxWalkAirSpeed;
                 }
-             
+
                 targetSpeed = lerp(targetSpeed, maximumSpeed, speedFactor * 3.6f * DeltaTime);
 
 
@@ -505,3 +507,4 @@ namespace Stormium.Default.Movement
         }
     }
 }
+#endif
