@@ -1,8 +1,8 @@
 {
-    "name": "pack.st.default",
+    "name": "package.stormium.default",
     "references": [
-        "pack.st.core",
-        "pack.guerro.shared",
+        "package.stormium.core",
+        "package.guerro.shared",
         "Unity.Entities",
         "Unity.Entities.Hybrid",
         "Unity.Mathematics",

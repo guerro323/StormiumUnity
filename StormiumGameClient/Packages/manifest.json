@@ -24,14 +24,14 @@
     "com.unity.modules.ar": "exclude",
     "com.unity.modules.cloudwebservices": "exclude",
     "com.unity.modules.umbra": "exclude",
-    "com.unity.modules.performancereporting": "1.0.0"
+    "com.unity.modules.performancereporting": "1.0.0",
+    "package.guerro.shared": "file:../../../../Common/Packages/package.guerro.shared",
+    "package.stormium.core": "file:../../../../Common/Packages/package.stormium.core" 
   },
   "testables": [
     "com.unity.collections",
     "com.unity.entities",
     "com.unity.jobs",
-    "pack.st.core",
-    "pack.st.default",
     "com.unity.inputsystem"
   ],
   "registry": "https://staging-packages.unity.com"

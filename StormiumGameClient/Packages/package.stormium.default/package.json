@@ -1,6 +1,6 @@
 {
-	"name": "pack.guerro.shared",
-	"displayName":"ST/P4 Shared",
+	"name": "package.stormium.default",
+	"displayName":"ST Default",
 	"version": "0.0.1",
 	"unity": "2018.2",
 	"description": "This package give some utilities for ECS based games",
@@ -8,7 +8,6 @@
     "dependencies": 
     {
 		"com.unity.inputsystem": "0.0.1",
-		"com.unity.entities": "0.0.11",
-		"pack.guerro.shared.components": "0.0.1"
+		"com.unity.entities": "0.0.11"
 	}
 }
