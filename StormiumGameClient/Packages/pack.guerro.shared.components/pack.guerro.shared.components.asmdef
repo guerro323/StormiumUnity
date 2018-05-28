@@ -1,13 +1,12 @@
 {
-    "name": "pack.guerro.shared",
+    "name": "pack.guerro.shared.components",
     "references": [
         "Unity.Entities",
         "Unity.Entities.Hybrid",
         "Unity.Mathematics",
         "Unity.Collections",
         "Unity.InputSystem",
-        "Unity.Jobs",
-        "pack.guerro.shared.components"
+        "Unity.Jobs"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

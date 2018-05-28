@@ -7,7 +7,10 @@ public class DebugTarget : MonoBehaviour
     private static DebugTarget m_Instance;
 
     public static Vector3 Target
-        => m_Instance.transform.position;
+    {
+        get => m_Instance.transform.position;
+        set => m_Instance.transform.position = value;
+    }
 
     private void Awake()
     {

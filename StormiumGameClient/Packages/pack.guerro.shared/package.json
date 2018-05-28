@@ -8,6 +8,7 @@
     "dependencies": 
     {
 		"com.unity.inputsystem": "0.0.1",
-		"com.unity.entities": "0.0.11"
+		"com.unity.entities": "0.0.11",
+		"pack.guerro.shared.components": "0.0.1"
 	}
 }

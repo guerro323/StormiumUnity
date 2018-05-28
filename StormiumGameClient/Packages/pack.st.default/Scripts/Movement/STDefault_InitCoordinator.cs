@@ -117,7 +117,7 @@ namespace Stormium.Default.Movement
                 m_Group.Positions[index] = new DWorldPositionData(m_Group.Positions[index].Value + (vel * Time.deltaTime));
                 m_Group.Rigidbodies[index].MovePosition(m_Group.Positions[index].Value + (vel * Time.deltaTime));
 
-                detail.Velocity    = rigidbody.velocity;
+                detail.Velocity    = rigidbody.velocity + (Physics.gravity * Time.deltaTime);
                 rigidbody.velocity = Vector3.zero;
 
 

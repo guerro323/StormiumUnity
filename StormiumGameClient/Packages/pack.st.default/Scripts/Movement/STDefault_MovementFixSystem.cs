@@ -82,7 +82,7 @@ namespace Stormium.Default.Movement
                     var positionWithFoot = position;
                     positionWithFoot.y += (characterCollider.FootPanel * 0.5f) + 0.1f;
 
-                    var isPenetrating = Physics.ComputePenetration(movementCollider, positionWithFoot,
+                    var isPenetrating = Physics.ComputePenetration(movementCollider, position,
                         Quaternion.identity,
                         otherCollider, otherCollider.transform.position, otherCollider.transform.rotation,
                         out direction, out distance);

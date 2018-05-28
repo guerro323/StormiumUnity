@@ -1,7 +1,8 @@
-﻿using System;
+﻿﻿using System;
 using System.CodeDom;
 using System.Linq;
-using Packet.Guerro.Shared.Characters;
+ using Packages.pack.st.core.Scripts;
+ using Packet.Guerro.Shared.Characters;
 using Packet.Guerro.Shared.Physic;
 using Packet.Guerro.Shared.Transforms;
 using Stormium.Internal.PlayerLoop;
@@ -24,12 +25,12 @@ namespace Stormium.Default.Movement
 
             #region Required by STDefault
 
+            public ComponentDataArray<DCharacterData> Characters;
             public ComponentDataArray<STDefault_EntityInput>    EntityInputs;
             public ComponentDataArray<STDefault_MovementDetail> Details;
             public ComponentDataArray<DWorldPositionData>       Positions;
             public ComponentDataArray<DWorldRotationData>       Rotations;
             public ComponentArray<Rigidbody>                    Rigidbodies;
-            public ComponentDataArray<DCharacterData>           Characters;
 
             [ReadOnly] public ComponentDataArray<DCharacterInformationData> CharacterInformations;
             [ReadOnly] public ComponentArray<DCharacterCollider3DComponent> CharacterColliders;
@@ -66,129 +67,29 @@ namespace Stormium.Default.Movement
             var charCollider       = m_Group.CharacterColliders[index];
             var rigidbody          = m_Group.Rigidbodies[index];
 
-            var movementCollider = charCollider.MovementCollider;
-            var capsuleRadius    = (movementCollider as CapsuleCollider).radius;
-            var capsuleHeight    = (movementCollider as CapsuleCollider).height;
-            
+            var stableBody = new StableBody();
+            var bodyData = new StableBody.BodyData(charCollider.MovementCollider,
+                dataPosition.Value,
+                dataRotation.Value,
+                -dataCharacter.MaximumStepAngle,
+                dataCharacter.MaximumStepAngle,
+                charCollider.FootPanel);
+
             var target = DebugTarget.Target;
+            target = dataPosition.Value + (dataInput.Direction * 36 * Time.deltaTime);
 
-            var oldPosition   = dataPosition.Value;
-            var overlapOffset = new Vector3(0, 0.001f, 0);
+            stableBody.MoveBody(ref target, true, ref bodyData);
 
-            // This loop will be finished if the character is blocked by a wall
-            // or if it reached the target
-            for (int iteration = 0;;)
+            // If character was grounded, stick him to ground (except if he is too high)
+            if (dataCharacter.StartOfFrame.IsGrounded)
             {
-                characterupdate_start:
-                
-                
-                if (iteration > 16)
-                    break;
-
-                var hasModifiedPosition = false;
-                
-                // Get our collider points
-                var highPoint = movementCollider
-                    .GetWorldTop(dataPosition.Value - overlapOffset, dataRotation.Value);
-                var lowPoint = movementCollider
-                    .GetWorldBottom(dataPosition.Value + overlapOffset, dataRotation.Value);
-                var centerPoint = movementCollider
-                    .GetWorldCenter(dataPosition.Value, dataRotation.Value);
-                // Get rotation direction (from Y)
-                var rotationUp = (dataRotation.Value * Vector3.up).normalized;
-
-                // Create the original position
-                var startPosition = dataPosition.Value;
-                // Create target, direction and distance
-                var direction = (target + new Vector3(0, capsuleHeight * 0.5f, 0)) - centerPoint;
-                var distance  = Vector3.Distance(centerPoint, target);
-
-                Debug.DrawRay(centerPoint, direction, Color.yellow, 0.1f);
-
-                Profiler.BeginSample("Make cast");
-                var capsuleCast 
-                    = Physics.CapsuleCast(lowPoint, highPoint, capsuleRadius, direction, out var hit, distance);
-                Profiler.EndSample();
-                if (capsuleCast)
-                {
-                    if (hit.point != Vector3.zero
-                        && hit.collider != movementCollider)
-                    {
-                        var angle = Vector3.Angle(rotationUp, hit.normal);
-                        if (!(angle > -dataCharacter.MaximumStepAngle && angle < dataCharacter.MaximumStepAngle))
-                        {
-                            var footPosition = Vector3.Lerp(lowPoint, highPoint,
-                                charCollider.FootPanel / capsuleHeight);
-                            Profiler.BeginSample("Get closest points");
-                            var closestPointFoot = hit.collider.ClosestPoint(footPosition);
-                            var closestPointHead = hit.collider.ClosestPoint(highPoint);
-                            if (Math.Abs(closestPointFoot.x - closestPointHead.x) < 0.01f
-                                || Math.Abs(closestPointFoot.z - closestPointHead.z) < 0.01f)
-                                closestPointHead = closestPointFoot;
-                            
-                            Profiler.EndSample();
-                            
-                            Debug.DrawRay(closestPointFoot, Vector3.up, new Color(0f, 0f, 0f, 1), 0.1f);
-                            Debug.DrawRay(closestPointHead, Vector3.up, new Color(0.5f, 0f, 0f, 1), 0.1f);
-                            Debug.DrawRay(footPosition, Vector3.up, new Color(1f, 0f, 0f, 1), 0.1f);
-                            
-                            var canAutojump = closestPointFoot.y <= footPosition.y;
-                            var bodyWillBeStuck =
-                                footPosition.y > closestPointHead.y && closestPointHead.y <= highPoint.y;
-
-                            // TODO: Implement 3 axe angle (for now, it's only Y angle)
-                            // Check if the closest point from the hit is under maximum foot height
-                            if (!bodyWillBeStuck)
-                            {
-                                Debug.DrawLine(centerPoint, hit.point, Color.magenta, 0.1f);
-                                
-                                Debug.DrawLine(dataPosition.Value, Vector3.Lerp
-                                (
-                                    startPosition, target,
-                                    math.clamp(hit.distance, 0, float.PositiveInfinity) / distance
-                                ), Color.blue, 0.1f);
-
-                                hasModifiedPosition = true;
-                                dataPosition.Value = Vector3.Lerp
-                                (
-                                    startPosition, target,
-                                    math.clamp(hit.distance, 0, float.PositiveInfinity) / distance
-                                );
-
-                                goto characterupdate_stop;
-                            }
-                        }
-
-                        Debug.DrawLine(centerPoint, hit.point, Color.green, 0.1f);
-                        
-                        Debug.DrawLine(dataPosition.Value, hit.point, Color.blue, 0.1f);
-
-                        hasModifiedPosition = true;
-                        dataPosition.Value  = hit.point;
-
-                        iteration++;
-                        goto characterupdate_start;
-                    }
-                }
-                
-                characterupdate_stop:
-                {
-                    if (!hasModifiedPosition)
-                    {
-                        Debug.DrawLine(dataPosition.Value, target, Color.blue, 0.1f);
-                        dataPosition.Value = target;
-                    }
-
-                    //Debug.DrawRay(dataPosition.Value + overlapOffset, Vector3.forward, Color.gray, 0.1f);
-                    //Debug.DrawRay(oldPosition, Vector3.forward + overlapOffset, Color.blue, 0.1f);
-                    //Debug.DrawLine(dataPosition.Value, oldPosition, Color.cyan, 0.1f);
-
-                    break;
-                }
+                stableBody.GetStableGround(ref bodyData);
             }
 
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            m_TransformManager.UpdatePosition(entity, dataPosition);
+            dataPosition.Value = bodyData.Position;
+
+            if (Input.GetKeyDown(KeyCode.A)) ;
+                m_TransformManager.UpdatePosition(entity, dataPosition);
         }
 
         private void UpdateCharacterMultipleCast(int index)

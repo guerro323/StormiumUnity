@@ -1,11 +1,10 @@
-﻿using Packet.Guerro.Shared.Physic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Packet.Guerro.Shared.Characters
 {
     public class DCharacterPhysicComponent : MonoBehaviour
     {
-        public CPhysicSurfaceInformation EarlyGroundSurface { get; internal set; }
+        /*public CPhysicSurfaceInformation EarlyGroundSurface { get; internal set; }
 
         public CPhysicSurfaceBehaviour GetGroundSurfaceBehaviour(Vector3 position, Quaternion rotation)
         {
@@ -22,6 +21,6 @@ namespace Packet.Guerro.Shared.Characters
 
             returnStatement:
             return null;
-        }
+        }*/
     }
 }
